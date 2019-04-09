@@ -47,4 +47,5 @@ Ctrl + Space
 В случае, если курсор находится на `/..`, то подсчет размера идет по всем папкам текущего каталога.
 
 ## <a name="links"></a> Ссылки [&uarr;](#content)
-- [Шпаргалка по mc (midnight commander)](https://prosto-tak.ru/shpargalka-po-mc-midnight-commander/ "Шпаргалка по mc (midnight commander)")
+
+- [Шпаргалка по mc (midnight commander)](https://prosto-tak.ru/shpargalka-po-mc-midnight-commander/)

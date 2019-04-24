@@ -1,4 +1,4 @@
-[&larr;](readme.md "Шпаргалка") Apache
+[&larr;](../readme.md "Шпаргалка") Apache
 --------------------------------------
 
 ## <a name="content"></a> Содержание:

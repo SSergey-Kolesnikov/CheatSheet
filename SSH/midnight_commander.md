@@ -1,4 +1,4 @@
-[&larr;](readme.md "Шпаргалка") Midnight Commander (MC) 
+[&larr;](../readme.md "Шпаргалка") Midnight Commander (MC) 
 -------------------------------------------------------
 ## <a name="content"></a> Содержание:
 - [Сочетания клавиш](#keyboard_shortcuts)

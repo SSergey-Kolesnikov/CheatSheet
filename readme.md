@@ -4,6 +4,7 @@
 Содержание:
 - [PHP](PHP/readme.md "PHP")
     - [Операторы](PHP/operators.md "Операторы")
+    - [Функции](PHP/functions.md "Функции")
 - [SSH](SSH/readme.md "SSH")
     - [Apache](SSH/apache.md "Apache")
     - [Git](SSH/git.md "Git")

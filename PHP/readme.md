@@ -5,3 +5,4 @@
 
 ## <a name="content"></a> Содержание:
 - [Операторы](operators.md "Операторы")
+- [Функции](PHP/functions.md "Функции")

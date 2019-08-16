@@ -1,5 +1,5 @@
-[&larr;](../readme.md "Шпаргалка") Midnight Commander (MC) 
--------------------------------------------------------
+[&larr;](readme.md "SSH") Midnight Commander (MC) 
+-------------------------------------------------
 ## <a name="content"></a> Содержание:
 - [Сочетания клавиш](#keyboard_shortcuts)
     - [Общее](#keyboard_shortcuts_common)
@@ -44,6 +44,7 @@ Alt + O
 ```markdown
 Ctrl + Space
 ```
+
 В случае, если курсор находится на `/..`, то подсчет размера идет по всем папкам текущего каталога.
 
 ## <a name="links"></a> Ссылки [&uarr;](#content)

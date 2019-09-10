@@ -5,6 +5,7 @@
 - [PHP](PHP/readme.md "PHP")
     - [Операторы](PHP/operators.md "Операторы")
     - [Функции](PHP/functions.md "Функции")
+    - [Примеры](PHP/examples/readme.md "Примеры")
 - [SSH](SSH/readme.md "SSH")
     - [Apache](SSH/apache.md "Apache")
     - [Git](SSH/git.md "Git")

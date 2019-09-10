@@ -6,3 +6,4 @@
 ## <a name="content"></a> Содержание:
 - [Операторы](operators.md "Операторы")
 - [Функции](functions.md "Функции")
+- [Примеры](examples/readme.md "Примеры")

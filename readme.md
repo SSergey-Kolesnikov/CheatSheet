@@ -2,6 +2,8 @@
 ---------
 
 Содержание:
+- [CMS](CMS/readme.md "CMS")
+    - [Битрикс](CMS/bitrix/readme.md "Битрикс")
 - [PHP](PHP/readme.md "PHP")
     - [Операторы](PHP/operators.md "Операторы")
     - [Функции](PHP/functions.md "Функции")

@@ -4,7 +4,7 @@
 ## <a name="content"></a> Содержание:
 - [Apache](apache.md "Apache")
 - [Git](git.md "Git")
-- [Midnight Commander (MC)](midnight_commander.md "Midnight Commander (MC)")
+- [Midnight Commander (MC)](midnight-commander.md "Midnight Commander (MC)")
 - [MySQL](mysql.md "MySQL")
 - [Архиваторы](archivers.md "Архиваторы")
 - [Прочее](#other "Прочее")

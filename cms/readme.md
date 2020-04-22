@@ -2,5 +2,5 @@
 --------------------------------------
 
 ## <a name="content"></a> Содержание:
-- [Modx](modx/readme.md "Modx")
-- [Битрикс](bitrix/readme.md "Битрикс")
+- [MODX](modx/readme.md "MODX")
+- [1С-Битрикс](1c-bitrix/readme.md "1С-Битрикс")

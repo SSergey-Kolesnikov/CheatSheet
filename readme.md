@@ -3,8 +3,8 @@
 
 Содержание:
 - [CMS](cms/readme.md "CMS")
-    - [Modx](cms/modx/readme.md "Modx")
-    - [Битрикс](cms/bitrix/readme.md "Битрикс")
+    - [MODX](cms/modx/readme.md "MODX")
+    - [1С-Битрикс](cms/1c-bitrix/readme.md "1С-Битрикс")
 - [PHP](php/readme.md "PHP")
     - [Операторы](php/operators.md "Операторы")
     - [Функции](php/functions.md "Функции")

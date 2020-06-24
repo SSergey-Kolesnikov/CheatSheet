@@ -18,4 +18,3 @@
     - [Прочее](ssh/readme.md#other "Прочее")
 - [Операционные системы](operating-system/readme.md "Операционные системы")
     - [Ubuntu](operating-system/ubuntu/readme.md "Ubuntu")
-        - [Установка Composer на Ubuntu 16.04](operating-system/ubuntu/install-composer-on-ubuntu-16-04.md "Установка Composer на Ubuntu 16.04")

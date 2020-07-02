@@ -1,23 +1,44 @@
 [&larr;](readme.md "SSH") MySQL
 -------------------------------
 
-## <a name="content"></a> Содержание:
-- [Команды](#commands)
-- [Ситуации](#situations)
-
-## <a name="commands"></a> Команды [&uarr;](#content)
-
 #### Статус MySQL
+
 ```markdown
 service mysql status
 ```
 
+#### Запуск MySQL
+
+```markdown
+service mysql start
+```
+
 #### Перезапуск MySQL
+
 ```markdown
 service mysql restart
 ```
 
+#### Остановка MySQL
+
+```markdown
+service mysql stop
+```
+
+#### Создаем бекап БД MySQL
+
+```markdown
+mysqldump -u <USER> -p<PASSWORD> <DATABASE> > "<FILE_NAME>.sql"
+```
+
+либо с последующей архивацией бекапа
+
+```markdown
+mysqldump -u <USER> -p<PASSWORD> <DATABASE> | gzip > "<FILE_NAME>.sql.gz"
+```
+
 #### Выводим на экран список процессов MySQL
+
 ```markdown
 ps aux | grep mysql
 ```
@@ -27,7 +48,6 @@ ps aux | grep mysql
 Команда `grep` запускается одновременно с `ps` (в канале) и будет выполнять поиск по результатам команды `ps` и на экран будут выведены только те строки, которые содержат строку (слово) `mysql`.
 
 #### Завершаем процесс по PID
-- [Убиваем процессы в Linux — команды ps, kill и killall (pingvinus.ru)](https://pingvinus.ru/note/ps-kill-killall)
 
 Команда kill предназначена для посылки сигнала процессу. По умолчанию, если мы не указываем какой сигнал посылать, посылается сигнал SIGTERM (от слова termination — завершение). SIGTERM указывает процессу на то, что необходимо завершиться. Каждый сигнал имеет свой номер. SIGTERM имеет номер 15.
 
@@ -43,25 +63,6 @@ kill -9 <PID_MYSQL>
 
 Список всех сигналов (и их номеров), которые может послать команда `kill`, можно вывести, выполнив `kill -l`.
 
-#### Создаем бекап БД MySQL
-```markdown
-mysqldump -u <USER> -p<PASSWORD> <DATABASE> > "<FILE_NAME>.sql"
-```
-либо с последующей архивацией бекапа
-```markdown
-mysqldump -u <USER> -p<PASSWORD> <DATABASE> | gzip > "<FILE_NAME>.sql.gz"
-```
+## Источник
 
-## <a name="situations"></a> Ситуации [&uarr;](#content)
-
-#### MySQL не перезапустился
 - [Убиваем процессы в Linux — команды ps, kill и killall (pingvinus.ru)](https://pingvinus.ru/note/ps-kill-killall)
-
-После рестарта MySQL, он не запускается. Нужно проверить подвисшие процессы и в случае необходимости их завершить.
-
-```markdown
-service mysql status //Статус MySQL
-ps aux | grep mysql //Выводим все процессы MySQL и ищем зависший процесс по PID
-kill -9 <PID_MYSQL> //Завершаем процесс по PID
-service mysql restart //Перезапуск MySQL
-```

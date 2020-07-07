@@ -21,6 +21,6 @@ $params = array(
 );
 ```
 
-### Источник
+## Источник
 
 - [PHP: curl_setopt (php.net)](https://www.php.net/manual/ru/function.curl-setopt.php)

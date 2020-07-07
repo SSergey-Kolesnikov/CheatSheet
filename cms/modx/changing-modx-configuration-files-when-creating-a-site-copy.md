@@ -184,6 +184,6 @@ if (!defined('MODX_LOG_LEVEL_FATAL')) {
 -----core_config-----*/
 ```
 
-### Источник
+## Источник
 
 - [Скрипт подмены конфигов сайта на лету (modx.pro)](https://modx.pro/solutions/19107)

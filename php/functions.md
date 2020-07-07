@@ -2,15 +2,17 @@
 ---------------------------------
 
 ## <a name="content"></a> Содержание:
-- [Переменное число параметров функции](#functions_variable_number_of_function_parameters)
-- [Типы аргументов и возвращаемого значения](#functions_types_of_arguments_and_return_value)
-- [Строгая типизация](#functions_strong_typing)
-- [Особенности инструкции global](#functions_features_of_the_global_instructionfunctions_features_of_the_global_instruction)
-- [Статические переменные](#functions_static_variables)
-- [Передача функций по ссылке](#functions_passing_functions_by_reference)
-- [Замыкание](#functions_circuit)
 
-#### <a name="functions_variable_number_of_function_parameters"></a> Переменное число параметров функции [&uarr;](#content "Содержание")
+- [Переменное число параметров функции](#functions-variable-number-of-function-parameters "Переменное число параметров функции")
+- [Типы аргументов и возвращаемого значения](#functions-types-of-arguments-and-return-value "Типы аргументов и возвращаемого значения")
+- [Строгая типизация](#functions-strong-typing "Строгая типизация")
+- [Особенности инструкции global](#functions-features-of-the-global-instructionfunctions-features-of-the-global-instruction "Строгая типизация")
+- [Статические переменные](#functions-static-variables "Статические переменные")
+- [Передача функций по ссылке](#functions-passing-functions-by-reference "Передача функций по ссылке")
+- [Замыкание](#functions-circuit "Замыкание")
+
+## <a name="functions-variable-number-of-function-parameters"></a> Переменное число параметров функции [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 216 страница; pdf - 212 страница);
 
 Для организации переменного числа параметров в функции, перед параметром может быть указано многоточие. Внутри функции такой параметр рассматривается как массив, содержащий все дополнительные параметры.
@@ -61,7 +63,8 @@ toomanyargs(...$planets);
 Четвертый параметр: Марс
 ```
 
-### <a name="functions_types_of_arguments_and_return_value"></a> Типы аргументов и возвращаемого значения
+## <a name="functions-types-of-arguments-and-return-value"></a> Типы аргументов и возвращаемого значения [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 217 страница; pdf - 213 страница);
 
 ```markdown
@@ -75,7 +78,8 @@ echo sum(2.5, 2.5); // Fatal Error в PHP < 7, Exception TypeError в PHP >=7
 
 PHP автоматически приводит вещественный тип к целому. Для того чтобы PHP эмулировал режим жесткой типизации и требовал от аргументов функции указанные при объявлении типов, необходимо включить строгий режим типизации.
 
-### <a name="functions_strong_typing"></a> Строгая типизация
+## <a name="functions-strong-typing"></a> Строгая типизация [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 218 страница; pdf - 214 страница);
 
 ```markdown
@@ -91,7 +95,8 @@ echo sum(2.5, 2.5); // Fatal Error в PHP < 7, Exception TypeError в PHP >=7
 
 До версии PHP7 использование неправильного типа в строгом режиме приводил к выдаче ошибки и остановке программы. Начиная с PHP7, вместо ошибки генерируется исключение `TypeError`, которое можно перехватить в программе.
 
-### <a name="functions_features_of_the_global_instruction"></a> Особенности инструкции global
+## <a name="functions-features-of-the-global-instruction"></a> Особенности инструкции global [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 221 страница; pdf - 217 страница);
 
 Листинг:
@@ -124,7 +129,8 @@ echo $a;
 
 В данном примере будет предупреждение, что переменная `$a` не определена!
 
-### <a name="functions_static_variables"></a> Статические переменные
+## <a name="functions-static-variables"></a> Статические переменные [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 222 страница; pdf - 218 страница);
 
 ```markdown
@@ -139,7 +145,8 @@ for ($i = 0; $i < 5; $i++) selfcount();
 
 После запуска будет выведена строка `12345`, а если убрать statis - то `11111`.
 
-### <a name="functions_passing_functions_by_reference"></a> Передача функций по ссылке
+## <a name="functions-passing-functions-by-reference"></a> Передача функций по ссылке [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 228 страница; pdf - 224 страница);
 
 Листинг:
@@ -162,7 +169,8 @@ call_user_func("B", 201);
 Вызвана B(201)
 ```
 
-### <a name="functions_circuit"></a> Замыкание
+## <a name="functions-circuit"></a> Замыкание [&uarr;](#content "Содержание")
+
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 230 страница; pdf - 226 страница);
 
 Листинг:

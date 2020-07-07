@@ -65,7 +65,7 @@ Composer version 1.10.7 2020-06-03 10:03:56
 
 Это означает, что Composer был успешно установлен.
 
-### Источник
+## Источник
 
 - [Composer (ru.wikipedia.org)](https://ru.wikipedia.org/wiki/Composer)
 - [УСТАНОВКА И ИСПОЛЬЗОВАНИЕ COMPOSER В UBUNTU 16.04 (8host.com)](https://www.8host.com/blog/ustanovka-i-ispolzovanie-composer-v-ubuntu-16-04/)

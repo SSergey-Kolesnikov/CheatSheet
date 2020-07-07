@@ -2,6 +2,7 @@
 -----------------------------
 
 ## <a name="content"></a> Содержание:
+
 - [Команды](#commands)
     - [Настройки](#commands_settings)
     - [Репозитории](#commands_repositories)
@@ -9,13 +10,14 @@
     - [Коммиты](#commands_commits)
     - [Прочее](#commands_other)
 - [Ситуации](#situations)
-- [Ссылки](#links)
+- [Источники](#sources)
 
-## <a name="commands"></a> Команды [&uarr;](#content)
+## <a name="commands"></a> Команды [&uarr;](#content "Содержание")
 
-### <a name="commands_settings"></a> Настройки [&uarr;](#content)
+### <a name="commands_settings"></a> Настройки [&uarr;](#content "Содержание")
 
 #### Вывод параметров Git'а
+
 ```markdown
 git config --list
 ```
@@ -46,14 +48,16 @@ git config --local user.email "<YOUR_EMAIL>"
 git config --local user.name "<YOUR_NAME>"
 ```
 
-### <a name="commands_repositories"></a> Репозитории [&uarr;](#content)
+### <a name="commands_repositories"></a> Репозитории [&uarr;](#content "Содержание")
 
 #### Создаем пустой локальный Git-репозиторий
+
 ```markdown
 git init
 ```
 
 #### Клонируем удаленный репозиторий
+
 ```markdown
 git clone <LINK>
 ```
@@ -67,16 +71,18 @@ git clone <LINK> ./
 После клонирования репозитория, все файлы репозитория создаются в текущей папке, но она предварительно должна быть пустой.
 
 #### Добавляем удаленный репозиторий (главный)
+
 ```markdown
 git remote add origin <LINK>
 ```
 
 #### Перепривязываем удаленный репизиторий (главный)
+
 ```markdown
 git remote set-url origin <LINK>
 ```
 
-### <a name="commands_branches"></a> Ветки [&uarr;](#content)
+### <a name="commands_branches"></a> Ветки [&uarr;](#content "Содержание")
 
 #### Создание веток
 
@@ -119,11 +125,13 @@ git branch -a
 ```
 
 #### Переключение на ветку `<BRANCH_NAME>`
+
 ```markdown
 git checkout <BRANCH_NAME>
 ```
 
 #### Привязываем локальную ветку `<BRANCH_NAME_1>` к удаленной ветке `<BRANCH_NAME_2>`
+
 ```markdown
 git branch --set-upstream <BRANCH_NAME_1> origin/<BRANCH_NAME_2>
 ```
@@ -167,7 +175,7 @@ git push origin --delete <BRANCH_NAME>
 git push origin :<BRANCH_NAME>
 ```
 
-### <a name="commands_commits"></a> Коммиты [&uarr;](#content)
+### <a name="commands_commits"></a> Коммиты [&uarr;](#content "Содержание")
 
 #### Добавление в индекс
 
@@ -190,6 +198,7 @@ git add -A
 ```
 
 #### Отмена индекации
+
 ```markdown
 git checkout <FILE_NAME>
 ```
@@ -325,11 +334,12 @@ git log --graph --all
 ```
 
 #### Просмотр коммита по хэшу
+
 ```markdown
 git show <HASH>
 ```
 
-### <a name="commands_other"></a> Прочее [&uarr;](#content)
+### <a name="commands_other"></a> Прочее [&uarr;](#content "Содержание")
 
 #### Статусы
 
@@ -346,6 +356,7 @@ git status -u
 ```
 
 #### Просмотр локальной истории
+
 ```markdown
 git reflog
 ```
@@ -365,6 +376,7 @@ git diff <FILE_NAME>
 ```
 
 #### Обновление локального состояния
+
 ```markdown
 git fetch -p
 ```
@@ -372,11 +384,12 @@ git fetch -p
 К примеру можно использовать после того, как кто-то удалил удаленную ветку, а в локальном репозитории она еще отображается.
 
 #### Просмотр версии Git'а
+
 ```markdown
 git --version
 ```
 
-## <a name="situations"></a> Ситуации [&uarr;](#content)
+## <a name="situations"></a> Ситуации [&uarr;](#content "Содержание")
 
 #### Переименование веток (локальная + удаленная)
 - [[Git] Переименование ветки (локально и удаленно) (bulkin.me)](https://bulkin.me/notes/3783)
@@ -387,7 +400,7 @@ git push origin :<OLD_BRANCH> //Удаление удаленной ветки
 git push --set-upstream origin <NEW_BRANCH> //Вталкивание данных текущей ветки, при этом создавая удаленную ветку и связывая их
 ```
 
-## <a name="links"></a> Ссылки [&uarr;](#content)
+## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
 
 - [Git - Book (git-scm.com)](https://git-scm.com/book/ru/v2)
 - [Часто используемые команды Git (bulkin.me)](https://bulkin.me/notes/3298)

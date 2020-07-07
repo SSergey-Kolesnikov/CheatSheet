@@ -1,7 +1,12 @@
 [&larr;](readme.md "1С-Битрикс") Настройка главного зеркала в Битриксе
 ----------------------------------------------------------------------
 
-#### Редирект на https и www
+## <a name="content"></a> Содержание:
+
+- [Редирект на https и www](#redirect-to-https-and-www)
+- [Источник](#source)
+
+## Редирект на https и www [&uarr;](#content "Содержание")
 
 В файл `.htaccess` в условие `mod_rewrite` добавляем правило:
 
@@ -35,6 +40,6 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 ```
 
-### Источник
+## <a name="source"></a> Источник [&uarr;](#content "Содержание")
 
 - [Правильный редирект в битрикс (el-komp.ru)](https://www.el-komp.ru/pravilnyj-redirekt-v-bitriks.html)

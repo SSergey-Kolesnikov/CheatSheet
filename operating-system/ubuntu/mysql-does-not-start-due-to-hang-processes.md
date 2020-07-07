@@ -27,6 +27,6 @@ kill -9 <PID_MYSQL>
 service mysql restart
 ```
 
-### Источник
+## Источник
 
 - [Убиваем процессы в Linux — команды ps, kill и killall (pingvinus.ru)](https://pingvinus.ru/note/ps-kill-killall)

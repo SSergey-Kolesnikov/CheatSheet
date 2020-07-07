@@ -2,6 +2,7 @@
 --------------------------------------
 
 ## <a name="content"></a> Содержание:
+
 - [Apache](apache.md "Apache")
 - [Git](git.md "Git")
 - [Midnight Commander (MC)](midnight-commander.md "Midnight Commander (MC)")
@@ -9,24 +10,28 @@
 - [Архиваторы](archivers.md "Архиваторы")
 - [Прочее](#other "Прочее")
 
-## <a name="other"></a> Прочее [&uarr;](#content)
+## <a name="other"></a> Прочее [&uarr;](#content "Содержание")
 
 #### Меняем права на папку (рекурсивно)
+
 ```markdown
 chmod -R <ACCESS_RIGHTS> <PATH>
 ```
 
 #### Меняем владельца папок и файлов (рекурсивно)
+
 ```markdown
 chown -R <USER>:<GROUP> <PATH>
 ```
 
 #### Меняем владельца всех папок и файлов (рекурсивно) в текущей папке
+
 ```markdown
 chown -R <USER>:<GROUP> ./*
 ```
 
 #### Смотрим, что лежит в текущей папке
+
 ```markdown
 ls -alh
 ```
@@ -37,36 +42,43 @@ ls -alh
 - h - делает вывод более читабельным
 
 #### Анализ дискового пространства (всего/занято/свободно)
+
 ```markdown
 df -h /
 ```
 
 #### Смотрим объем указанной папки
+
 ```markdown
 du -sh <FOLDER_NAME>
 ```
 
 #### Смотрим объем всех папок в текущей папке
+
 ```markdown
 du -sh *
 ```
 
 #### Название ОС
+
 ```markdown
 uname -a
 ```
 
 #### Версия PHP
+
 ```markdown
 php -v
 ```
 
 #### Просмотр ресурсов сервера (предварительно необходимо установить htop)
+
 ```markdown
 htop
 ```
 
 #### Просмотр чтения/записи на диск (предварительно необходимо установить iotop)
+
 ```markdown
 iotop
 ```

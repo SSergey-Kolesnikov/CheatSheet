@@ -20,6 +20,6 @@ $modx->sendRedirect('/manager/');
 
 После запуска скрипта из браузера, файл `auth.php` удаляется с сервера.
 
-### Источник
+## Источник
 
 - [Авторизация в админке сайта MODX (если потеряли пароль админа) (ilyaut.ru)](https://ilyaut.ru/cheats/authorization-in-the-admin-area-of-modx-if-lost-admin-password/)

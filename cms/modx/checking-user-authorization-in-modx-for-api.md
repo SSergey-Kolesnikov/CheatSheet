@@ -29,6 +29,6 @@ if ($modx->user->isAuthenticated()) {
 ($modx->user->isAuthenticated()) ?: exit("Пользователь не авторизован");
 ```
 
-### Источник
+## Источник
 
 - [Проверка авторизации в сниппете (modx.pro)](https://modx.pro/help/4874#comment-35271)

@@ -105,7 +105,7 @@ wrapper_script='#!/usr/bin/php-cgi -cphp5-cgi.ini'
 wrapper_script='#!/usr/bin/php-cgi74 -c/etc/php/7.4/cgi/php.ini'
 ```
 
-Для файла `/usr/local/vesta/data/templates/web/apache2/php7.4.sh` права доступа должны быть 755. В случае отличия, меняем права доступа для файла на на 755:
+Для файла `/usr/local/vesta/data/templates/web/apache2/php7.4.sh` права доступа должны быть 755. В случае отличия, меняем права доступа для файла на 755:
 
 ```markdown
 chmod 755 /usr/local/vesta/data/templates/web/apache2/php7.4.sh

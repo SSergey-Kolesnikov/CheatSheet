@@ -4,14 +4,16 @@
 Пример базовых системных настроек MODX для разработки сайта.
 
 ## <a name="namespace"></a> Пространства имён:
-- [Core](#core)
+- [core](#core)
     - [Авторизация и безопасность](#authentication)
     - [Дружественные URL](#furls)
     - [Система управления](#manager)
     - [Сайт](#site)
     - [Система и сервер](#system)
+- [pdotools](#pdotools)
+    - [Основные](#pdotools_main)
 
-## <a name="core"></a> Core [&uarr;](#namespace "Пространства имён")
+## <a name="core"></a> core [&uarr;](#namespace "Пространства имён")
 
 ### <a name="authentication"></a> Авторизация и безопасность [&uarr;](#namespace "Пространства имён")
 
@@ -84,3 +86,14 @@ URL фавиконки системы управления | manager_favicon_url
 где:
 
 - `PROTOCOL` - используемый протокол;
+
+## <a name="pdotools"></a> pdotools [&uarr;](#namespace "Пространства имён")
+
+pdoTools — это набор удобных сниппетов для повседневной работы + небольшая библиотека, которая делает их очень быстрыми.
+
+### <a name="pdotools_main"></a> Основные [&uarr;](#namespace "Пространства имён")
+
+Имя | Ключ | Значение
+--- | --- | :---:
+Разрешить MODX в Fenom | pdotools_fenom_modx | Да
+Использовать Fenom на страницах | pdotools_fenom_parser | Да

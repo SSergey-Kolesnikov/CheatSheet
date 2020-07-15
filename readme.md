@@ -22,3 +22,4 @@
     - [Прочие команды](ssh-commands/readme.md#other-commands "Прочие команды")
 - [Операционные системы](operating-system/readme.md "Операционные системы")
     - [Ubuntu](operating-system/ubuntu/readme.md "Ubuntu")
+    - [Windows](operating-system/windows/readme.md "Windows")

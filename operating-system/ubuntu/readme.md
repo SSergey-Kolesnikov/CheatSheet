@@ -7,6 +7,7 @@
 - [Не запускается Apache из-за подвисших процессов](apache-does-not-start-due-to-hang-processes.md "Не запускается Apache из-за подвисших процессов")
 - [Не запускается MySQL из-за подвисших процессов](mysql-does-not-start-due-to-hang-processes.md "Не запускается MySQL из-за подвисших процессов")
 - [Несколько версий PHP на Ubuntu 16 c Vesta Control Panel](multiple-php-versions-on-ubuntu-16-with-vesta-control-panel.md "Несколько версий PHP на Ubuntu 16 c Vesta Control Panel")
+- [Подготовка сервера на Ubuntu 16 c Vesta Control Panel под установку 1С-Битрикс](preparing-a-server-on-ubuntu-16-with-vesta-control-panel-for-installing-1c-bitrix.md "Подготовка сервера на Ubuntu 16 c Vesta Control Panel под установку 1С-Битрикс")
 - [Скачиваем сайт целиком с помощью Wget под Ubuntu 16](downloading-the-entire-site-using-wget-under-ubuntu-16.md "Скачиваем сайт целиком с помощью Wget под Ubuntu 16")
 - [Установка Composer на Ubuntu 16](install-composer-on-ubuntu-16.md "Установка Composer на Ubuntu 16")
 - [Установка Laravel на Ubuntu 16 c Vesta Control Panel](install-laravel-on-ubuntu-16-with-vesta-control-panel.md "Установка Laravel на Ubuntu 16 c Vesta Control Panel")

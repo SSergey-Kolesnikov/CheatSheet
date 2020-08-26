@@ -17,7 +17,7 @@ Webmin состоит из простого веб-сервера и больш�
 Добавляем официальный репозиторий Webmin в источники приложений, для этого открываем файл `/etc/apt/sources.list` на редактирование:
 
 ```markdown
-sudo nano /etc/apt/sources.list
+user@computer:~$ sudo nano /etc/apt/sources.list
 ```
 
 В конец файла добавляем строки:
@@ -30,12 +30,7 @@ deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib
 Скачиваем GPG-ключ репозитория:
 
 ```markdown
-sudo wget http://www.webmin.com/jcameron-key.asc
-```
-
-Результатом выполнения команды будет:
-
-```markdown
+user@computer:~$ sudo wget http://www.webmin.com/jcameron-key.asc
 --0000-00-00 00:00:00--  http://www.webmin.com/jcameron-key.asc
 Resolving www.webmin.com (www.webmin.com)... 216.105.38.10
 Connecting to www.webmin.com (www.webmin.com)|216.105.38.10|:80... connected.
@@ -51,24 +46,14 @@ jcameron-key.asc                            100%[===============================
 Добавляем GPG-ключ репозитория:
 
 ```markdown
-sudo apt-key add jcameron-key.asc
-```
-
-Результатом выполнения команды будет:
-
-```markdown
+user@computer:~$ sudo apt-key add jcameron-key.asc
 OK
 ```
 
 Обновляем списки пакетов:
 
 ```markdown
-sudo apt update
-```
-
-Результатом выполнения команды будет:
-
-```markdown
+user@computer:~$ sudo apt update
 Hit:1 http://ru.archive.ubuntu.com/ubuntu focal InRelease
 Get:2 http://ru.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]
 Get:3 http://ru.archive.ubuntu.com/ubuntu focal-backports InRelease [98.3 kB]
@@ -91,12 +76,7 @@ All packages are up to date.
 Устанавливаем Webmin:
 
 ```markdown
-sudo apt install webmin
-```
-
-Результатом выполнения команды будет:
-
-```markdown
+user@computer:~$ sudo apt install webmin
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
@@ -157,12 +137,7 @@ Processing triggers for systemd (245.4-4ubuntu3.2) ...
 В брандмауэре открываем порт 10000 для Webmin:
 
 ```markdown
-sudo ufw allow 10000
-```
-
-Результатом выполнения команды будет:
-
-```markdown
+user@computer:~$ sudo ufw allow 10000
 Rule added
 Rule added (v6)
 ```

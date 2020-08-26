@@ -4,6 +4,7 @@
 ## <a name="content"></a> Содержание:
 
 - [Горячие клавиши для Midnight Commander](keyboard-shortcuts-for-midnight-commander.md "Горячие клавиши для Midnight Commander")
+- [Домашний сервер на базе Ubuntu Server 20](home-server-based-on-ubuntu-server-20.md "Домашний сервер на базе Ubuntu Server 20")
 - [Не запускается Apache из-за подвисших процессов](apache-does-not-start-due-to-hang-processes.md "Не запускается Apache из-за подвисших процессов")
 - [Не запускается MySQL из-за подвисших процессов](mysql-does-not-start-due-to-hang-processes.md "Не запускается MySQL из-за подвисших процессов")
 - [Несколько версий PHP на Ubuntu 16 c Vesta Control Panel](multiple-php-versions-on-ubuntu-16-with-vesta-control-panel.md "Несколько версий PHP на Ubuntu 16 c Vesta Control Panel")

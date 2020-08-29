@@ -55,7 +55,7 @@ user@computer:~$ apt list --upgradable
 Обновляем пакеты, установленные в системе:
 
 ```markdown
-user@computer:~$ apt upgrade
+user@computer:~$ sudo apt upgrade
 ```
 
 ### <a name="static-ip-address"></a> Статический IP-адрес [&uarr;](#content "Содержание")

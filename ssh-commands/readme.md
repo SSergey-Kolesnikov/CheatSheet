@@ -22,6 +22,69 @@
 uname -a
 ```
 
+#### Перезагрузка компьютера
+
+```markdown
+shutdown -r now
+```
+
+#### Выключение компьютера
+
+```markdown
+shutdown -P now
+```
+
+#### Локальный IP адрес
+
+```markdown
+user@computer:~$ ip addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65563 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: enp2t7:: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 00:e1:51:53:e0:ea brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.101/24 brd 192.168.1.255 scope global enp2t7:
+       valid_lft forever preferred_lft forever
+    inet6 fe75::2a0:35ee:ff65:ae/64 scope link
+       valid_lft forever preferred_lft forever
+3: enp0s10: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 04:00:9c:61:c2:a0 brd ff:ff:ff:ff:ff:ff
+```
+
+#### Текущие дата/время
+
+```markdown
+user@computer:~$ date
+Mon 31 Aug 2020 03:03:41 AM MSK
+```
+
+#### Список доступных часовых поясов
+
+```markdown
+user@computer:~$ timedatectl list-timezones
+Africa/Abidjan
+Africa/Accra
+...
+Europe/Astrakhan
+Europe/Kaliningrad
+Europe/Kiev
+Europe/Kirov
+Europe/Moscow
+Europe/Samara
+Europe/Saratov
+Europe/Simferopol
+Europe/Ulyanovsk
+Europe/Uzhgorod
+Europe/Volgograd
+...
+Pacific/Wake
+Pacific/Wallis
+UTC
+```
+
 #### История команд
 
 ```markdown
@@ -67,3 +130,4 @@ history -c
 ## <a name="source"></a> Источник [&uarr;](#content "Содержание")
 
 - [История команд Linux (losst.ru)](https://losst.ru/istoriya-komand-linux)
+- [Выключение Linux из командной строки (losst.ru)](https://losst.ru/vyklyuchenie-linux-iz-komandnoj-stroki)

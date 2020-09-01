@@ -11,6 +11,8 @@
     - [Настройка SSH-сервера](#setting-up-an-ssh-server)
     - [Настройка времени](#time-setting)
     - [Установка вспомогательных программ](#installing-auxiliary-programs)
+        - [Установка Midnight CommanderУстановка Midnight Commander](#installing-midnight-commander)
+        - [Установка htop](#installing-htop)
 - [Установка Webmin](#installing-webmin)
 - [Источники](#sources)
 
@@ -231,15 +233,13 @@ user@computer:~$ sudo systemctl enable ntp
 user@computer:~$ sudo apt update
 ```
 
-Устанавливаем Midnight Commander:
+#### <a name="installing-midnight-commander"></a> Установка Midnight Commander [&uarr;](#content "Содержание")
 
 > Midnight Commander - один из файловых менеджеров с текстовым интерфейсом типа Norton Commander для UNIX-подобных операционных систем.
 
-```markdown
-user@computer:~$ sudo apt install mc
-```
+Для установки Midnight Commander можно воспользоваться инструкцией "[Установка Midnight Commander на Ubuntu 16/18/20](installing-midnight-commander-on-ubuntu-16-18-20.md)".
 
-Устанавливаем htop:
+#### <a name="installing-htop"></a> Установка htop [&uarr;](#content "Содержание")
 
 > htop — компьютерная программа, предназначенная для вывода на терминал списка запущенных процессов и информации о них (монитор процессов).
 

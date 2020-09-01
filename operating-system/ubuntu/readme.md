@@ -12,4 +12,5 @@
 - [Скачиваем сайт целиком с помощью Wget под Ubuntu 16](downloading-the-entire-site-using-wget-under-ubuntu-16.md "Скачиваем сайт целиком с помощью Wget под Ubuntu 16")
 - [Установка Composer на Ubuntu 16](install-composer-on-ubuntu-16.md "Установка Composer на Ubuntu 16")
 - [Установка Laravel на Ubuntu 16 c Vesta Control Panel](install-laravel-on-ubuntu-16-with-vesta-control-panel.md "Установка Laravel на Ubuntu 16 c Vesta Control Panel")
+- [Установка Midnight Commander на Ubuntu 16/18/20](installing-midnight-commander-on-ubuntu-16-18-20.md "Установка Midnight Commander на Ubuntu 16/18/20")
 - [Установка Webmin на Ubuntu Server 20](installing-webmin-on-ubuntu-server-20.md "Установка Webmin на Ubuntu Server 20")

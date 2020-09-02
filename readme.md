@@ -18,6 +18,7 @@
     - [PHP](ssh-commands/php.md "PHP")
     - [Архиваторы](ssh-commands/archivers.md "Архиваторы")
     - [Мониторинг работы системы, нагрузки сервера, сети и т.п.](ssh-commands/monitoring-system-operation-server-load-network-etc.md "Мониторинг работы системы, нагрузки сервера, сети и т.п.")
+    - [Пользователи и группы пользователей](ssh-commands/users-and-user-groups.md "Пользователи и группы пользователей")
     - [Файловая система](ssh-commands/file-system.md "Файловая система")
     - [Прочие команды](ssh-commands/readme.md#other-commands "Прочие команды")
 - [Операционные системы](operating-system/readme.md "Операционные системы")

@@ -16,6 +16,7 @@
     - [Midnight Commander (MC)](ssh-commands/midnight-commander.md "Midnight Commander (MC)")
     - [MySQL](ssh-commands/mysql.md "MySQL")
     - [PHP](ssh-commands/php.md "PHP")
+    - [Samba](ssh-commands/samba.md "Samba")
     - [Архиваторы](ssh-commands/archivers.md "Архиваторы")
     - [Мониторинг работы системы, нагрузки сервера, сети и т.п.](ssh-commands/monitoring-system-operation-server-load-network-etc.md "Мониторинг работы системы, нагрузки сервера, сети и т.п.")
     - [Пользователи и группы пользователей](ssh-commands/users-and-user-groups.md "Пользователи и группы пользователей")

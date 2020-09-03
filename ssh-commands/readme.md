@@ -8,6 +8,7 @@
 - [Midnight Commander](midnight-commander.md "Midnight Commander")
 - [MySQL](mysql.md "MySQL")
 - [PHP](php.md "PHP")
+- [Samba](samba.md "Samba")
 - [Архиваторы](archivers.md "Архиваторы")
 - [Мониторинг работы системы, нагрузки сервера, сети и т.п.](monitoring-system-operation-server-load-network-etc.md "Мониторинг работы системы, нагрузки сервера, сети и т.п.")
 - [Пользователи и группы пользователей](users-and-user-groups.md "Пользователи и группы пользователей")

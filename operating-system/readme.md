@@ -4,3 +4,4 @@
 ## <a name="content"></a> Содержание:
 
 - [Ubuntu](ubuntu/readme.md "Ubuntu")
+- [Windows](windows/readme.md "Windows")

@@ -42,23 +42,7 @@
 
 ### <a name="system-update"></a> Обновление системы [&uarr;](#content "Содержание")
 
-Обновляем список пакетов:
-
-```markdown
-user@computer:~$ sudo apt update
-```
-
-Просматриваем список пакетов, которые требуют обновления:
-
-```markdown
-user@computer:~$ apt list --upgradable
-```
-
-Обновляем пакеты, установленные в системе:
-
-```markdown
-user@computer:~$ sudo apt upgrade
-```
+Для обновления системы можно воспользоваться инструкцией "[Обновление Ubuntu 16/18/20](update-ubuntu-16-18-20.md)".
 
 ### <a name="static-ip-address"></a> Статический IP-адрес [&uarr;](#content "Содержание")
 

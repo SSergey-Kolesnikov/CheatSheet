@@ -4,7 +4,7 @@
 #### Список пользователей:
 
 ```markdown
-user@computer:~$ cat /etc/group
+user@computer:~$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 ...

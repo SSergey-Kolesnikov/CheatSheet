@@ -10,16 +10,6 @@ daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 ...
 ```
 
-#### Список групп пользователей:
-
-```markdown
-user@computer:~$ cat /etc/group
-root:x:0:
-daemon:x:1:
-bin:x:2:
-...
-```
-
 #### Список групп текущего пользователя:
 
 ```markdown
@@ -52,6 +42,29 @@ user@computer:~$ groups <USER>
 
 - `<USER>` - логин пользователя;
 
+#### Добавление пользователя в дополнительную группу пользователей:
+
+```markdown
+user@computer:~$ usermod -a -G <GROUP> <USER>
+```
+
+где:
+
+- `-a` - флаг, указывающий о необходимости добавления пользователя в дополнительную группу пользователей из параметра `-G`, а не заменять им текущее значение;
+- `-G` - флаг, указывающий, что пользователь добавляется в дополнительную группу пользователей;
+- `<GROUP>` - наименование группы пользователей;
+- `<USER>` - логин пользователя;
+
+#### Список групп пользователей:
+
+```markdown
+user@computer:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+...
+```
+
 #### Создание группы пользователей:
 
 ```markdown
@@ -82,3 +95,4 @@ user@computer:~$ groupmod -n <NEW_GROUP> <OLD_GROUP>
 - [Как создать пользователя Linux (losst.ru)](https://losst.ru/kak-sozdat-polzovatelya-linux)
 - [Как посмотреть пользователей Ubuntu (losst.ru)](https://losst.ru/kak-posmotret-spisok-polzovatelej-v-ubuntu)
 - [Изменить имя пользователя/группы в любом Linux (itsecforu.ru)](https://itsecforu.ru/2017/06/14/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B8%D0%BC%D1%8F-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B-%D0%B2-%D0%BB%D1%8E/)
+- [Как добавить пользователя в группу Linux (losst.ru)](https://losst.ru/kak-dobavit-polzovatelya-v-gruppu-linux)

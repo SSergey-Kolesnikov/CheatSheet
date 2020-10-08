@@ -45,20 +45,36 @@ du -sh *
 #### Меняем права на папку (рекурсивно)
 
 ```markdown
-chmod -R <ACCESS_RIGHTS> <PATH>
+chmod -R <ACCESS_RIGHTS> <PATH_TO_FOLDER>
 ```
+
+где:
+ 
+- `<ACCESS_RIGHTS>` - права доступа;
+- `<PATH_TO_FOLDER>` - путь до папки;
 
 #### Меняем владельца папок и файлов (рекурсивно)
 
 ```markdown
-chown -R <USER>:<GROUP> <PATH>
+chown -R <USER>:<GROUP> <PATH_TO_FOLDER>
 ```
+
+где:
+ 
+- `<USER>` - логин пользователя;
+- `<GROUP>` - группа пользователей;
+- `<PATH_TO_FOLDER>` - путь до папки;
 
 #### Меняем владельца всех папок и файлов (рекурсивно) в текущей папке
 
 ```markdown
 chown -R <USER>:<GROUP> ./*
 ```
+
+где:
+ 
+- `<USER>` - логин пользователя;
+- `<GROUP>` - группа пользователей;
 
 #### Список подключенных дисков
 

@@ -3,6 +3,7 @@
 
 ## <a name="content"></a> Содержание:
 
+- [TV со списком ресурсов и возможностью множественного выбора](tv-with-resource-list-and-multiple-choice.md "TV со списком ресурсов и возможностью множественного выбора")
 - [Авторизация в админ. панели MODX, если потерян пароль администратора](authorization-in-the-admin-panel-modx-if-administrator-password-is-lost.md "Авторизация в админ. панели MODX, если потерян пароль администратора")
 - [Базовые системные настройки MODX](basic-modx-system-settings.md "Базовые системные настройки MODX")
 - [Настройка MODX для отправки писем через SMTP Яндекса](configuring-modx-to-send-emails-via-yandex-smtp.md "Настройка MODX для отправки писем через SMTP Яндекса")

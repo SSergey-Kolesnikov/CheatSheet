@@ -1,6 +1,18 @@
 [&larr;](readme.md "1С-Битрикс") Подборка компонентов, модулей из маркетплейса Битрикса
 ---------------------------------------------------------------------------------------
 
+- reCAPTCHA
+    - [Невидимая капча Битрикс | Google reCAPTCHA v3](https://marketplace.1c-bitrix.ru/solutions/redsign.recaptcha3/)  
+    Модуль позволяет заменить стандартную капчу на вашем сайте на продвинутую невидимую Google reCAPTCHA v3.
+    - [reCAPTCHA для BITRIX](https://marketplace.1c-bitrix.ru/solutions/intervolga.recaptcha/)  
+    Модуль автоматически заменяет обычную капчу 1С-Битрикс на Google reCAPTCHA.
+    - [Google ReCaptcha – улучшенная капча и защита от ботов и спама](https://marketplace.1c-bitrix.ru/solutions/itd.recaptcha/)
+    - [Google reCAPTCHA | продвинутая капча](https://marketplace.1c-bitrix.ru/solutions/redsign.recaptcha/)  
+    Модуль помогает заменить стандартную капчу на вашем сайте на продвинутую Google reCAPTCHA.  
+    - [reCAPTCHA 2020 для Bitrix (v2 и v3). Установи без программиста.](https://marketplace.1c-bitrix.ru/solutions/friendlyagency.recaptcha/)  
+        > Модуль работает толко со стандартными формами 1С-Битрикс
+    - [reCaptchaFree](https://marketplace.1c-bitrix.ru/solutions/twim.recaptchafree/)  
+        > Модуль работает только с версией reCAPTCHA v2
 - Импорт, Экспорт
     - [Экспорт в Excel. Выгрузка каталога товаров 1С-Битрикс. Создание прайс-листа](http://marketplace.1c-bitrix.ru/solutions/kda.exportexcel/)  
     Модуль позволяет экспортировать элементы инфоблока (товары) в Excel-файл.

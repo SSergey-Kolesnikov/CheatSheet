@@ -1,6 +1,16 @@
 [&larr;](readme.md "1С-Битрикс") Подборка готовых решений из маркетплейса Битрикса
 ----------------------------------------------------------------------------------
 
+- [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php)
+    - Наименование: [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/altop.enext/)  
+    Демо сайт: [enext.altop.pro](https://enext.altop.pro/)  
+    Описание: ЭЛЕКТРОСИЛА NEXT - Новое готовое решение на базе которого вы сможете создать быстрый, удобный и широкоформатный интернет-магазин!
+- [Centino](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=9068953.php)
+    - Наименование: [Centino:Инжиниринг - универсальный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/centino.heat/)  
+    Демо сайт: [heat.centino-demo.ru](https://heat.centino-demo.ru/)  
+    Описание: Centino: Инжиниринг – корпоративный сайт для компаний в сфере проектирования и строительства инженерных коммуникаций. Готовое решение адаптировано под специфику бизнеса продажи и монтажа систем отопления, водоснабжения, автономной канализации, вентиляции и других строительных проектов.
+- [«INTEC» интернет-агентство](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=193047.php) - готовые решения под разные тематики сайтов.
+- [АЛЬФА Системс](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=164683.php) - готовые решения под разные тематики сайтов.
 - [Аспро](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=310879.php)
     - Наименование: [Аспро: Максимум - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.max/)  
     Демо сайт: [max-demo.ru](https://max-demo.ru/)  
@@ -29,6 +39,7 @@
     - Наименование: [Аспро: Корпорация - адаптивный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.corporation/)  
     Демо сайт: [corporation.aspro-demo.ru](https://corporation.aspro-demo.ru/)  
     Описание: Профессиональное решения для разработки корпоративного сайта по любой тематике.
+- [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов.
 - [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php)
     - Наименование: [Некстайп: Магнит — интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/nextype.magnet/)  
     Демо сайт: [magnet.nextype-demo.ru](https://magnet.nextype-demo.ru/)  

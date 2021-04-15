@@ -3,6 +3,7 @@
 
 ## <a name="content"></a> Содержание:
 
+- [Авторизация в админ. панели Битрикса без пароля](authorization-in-the-bitrix-administration-panel-without-a-password.md "Авторизация в админ. панели Битрикса без пароля")
 - [Настройка главного зеркала в Битриксе](setting-up-the-main-mirror-in-bitrix.md "Настройка главного зеркала в Битриксе")
 - [Ошибка "MySQL server has gone away" в Битрикс](error-mysql-server-has-gone-away-in-bitrix.md "Ошибка \"MySQL server has gone away\" в Битрикс")
 - [Подборка готовых решений из маркетплейса Битрикса](selection-of-ready-made-solutions-from-the-bitrix-marketplace.md "Подборка готовых решений из маркетплейса Битрикса")

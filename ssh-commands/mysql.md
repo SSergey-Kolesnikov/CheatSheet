@@ -25,17 +25,43 @@ service mysql restart
 service mysql stop
 ```
 
-#### Создаем бекап БД MySQL
+#### Экспорт БД MySQL
 
 ```markdown
-mysqldump -u <USER> -p<PASSWORD> <DATABASE> > "<FILE_NAME>.sql"
+mysqldump -u<USER> -p<PASSWORD> <DATABASE> > "<FILE_NAME>.sql"
 ```
 
-либо с последующей архивацией бекапа
+либо с последующей архивацией
 
 ```markdown
-mysqldump -u <USER> -p<PASSWORD> <DATABASE> | gzip > "<FILE_NAME>.sql.gz"
+mysqldump -u<USER> -p<PASSWORD> <DATABASE> | gzip > "<FILE_NAME>.sql.gz"
 ```
+
+где:
+ 
+- `<USER>` - имя пользователя БД;
+- `<PASSWORD>` - пароль пользователя БД;
+- `<DATABASE>` - имя базы данных;
+- `<FILE_NAME>` - имя файла;
+
+#### Импорт БД MySQL
+
+```markdown
+mysql -u<USER> -p<PASSWORD> <DATABASE> < "<FILE_NAME>.sql"
+```
+
+либо с разархивация
+
+```markdown
+gzip -dc < "<FILE_NAME>.sql.gz" | mysql -u<USER> -p<PASSWORD> <DATABASE>
+```
+
+где:
+ 
+- `<USER>` - имя пользователя БД;
+- `<PASSWORD>` - пароль пользователя БД;
+- `<DATABASE>` - имя базы данных;
+- `<FILE_NAME>` - имя файла;
 
 #### Выводим на экран список процессов MySQL
 

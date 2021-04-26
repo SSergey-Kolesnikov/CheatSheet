@@ -5,7 +5,7 @@
 
 #### Смена кодировки для базы данных
 
-```markdown
+```mysql
 ALTER DATABASE <DB_NAME> charset=utf8;
 ```
 
@@ -15,7 +15,7 @@ ALTER DATABASE <DB_NAME> charset=utf8;
 
 #### Смена кодировки для таблицы
 
-```markdown
+```mysql
 ALTER TABLE `<DB_NAME>`.`<TABLE_NAME>` CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 

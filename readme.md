@@ -6,6 +6,7 @@
 - [CMS](cms/readme.md "CMS")
     - [MODX](cms/modx/readme.md "MODX")
     - [1С-Битрикс](cms/1c-bitrix/readme.md "1С-Битрикс")
+- [MySQL](mysql/readme.md "MySQL")
 - [PHP](php/readme.md "PHP")
     - [Операторы](php/operators.md "Операторы")
     - [Функции](php/functions.md "Функции")

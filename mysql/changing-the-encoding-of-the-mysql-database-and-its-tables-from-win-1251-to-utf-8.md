@@ -6,7 +6,7 @@
 #### Смена кодировки для базы данных
 
 ```mysql
-ALTER DATABASE <DB_NAME> charset=utf8;
+ALTER DATABASE `<DB_NAME>` charset=utf8;
 ```
 
 где:

@@ -43,15 +43,15 @@
 По умолчанию в Vesta Control Panel есть шаблон phpcgi. Копируем файлы этого шаблона:
 
 ```markdown
-sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.sh /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh
+user@computer:~$ sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.sh /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh
 ```
 
 ```markdown
-sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.stpl /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.stpl
+user@computer:~$ sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.stpl /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.stpl
 ```
 
 ```markdown
-sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.tpl /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.tpl
+user@computer:~$ sudo cp /usr/local/vesta/data/templates/web/apache2/phpcgi.tpl /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.tpl
 ```
 
 В файле `/usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh` меняем строку
@@ -69,7 +69,7 @@ wrapper_script='#!/usr/bin/php-cgi74 -c/etc/php/7.4/cgi/php.ini'
 Для файла `/usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh` права доступа должны быть 755. В случае отличия, меняем права доступа для файла на 755:
 
 ```markdown
-sudo chmod 755 /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh
+user@computer:~$ sudo chmod 755 /usr/local/vesta/data/templates/web/apache2/php7.4-laravel.sh
 ```
 
 В файле `/usr/local/vesta/data/templates/web/apache2/php7.4-laravel.stpl` меняем строку
@@ -180,7 +180,7 @@ DocumentRoot %docroot%/public
 Перезапускаем Vesta Control Panel:
 
 ```markdown
-sudo service vesta restart
+user@computer:~$ sudo service vesta restart
 ```
 
 ## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта [&uarr;](#content "Содержание")
@@ -204,31 +204,31 @@ Laravel использует [Composer](https://getcomposer.org/) для упр�
 Переходим в домашнюю папку:
 
 ```markdown
-cd ~
+user@computer:~$ cd ~
 ```
 
 Скачиваем установщик Laravel:
 
 ```markdown
-composer global require laravel/installer
+user@computer:~$ composer global require laravel/installer
 ```
 
 Далее обязательно помещаем общесистемный каталог bin от Composer в свой каталог $PATH. Это позволит Ubuntu распознать исполняемый файл Laravel.
 
 ```markdown
-echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
+user@computer:~$ echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
 ```
 
 Перезагружаем пути:
 
 ```markdown
-source ~/.bashrc
+user@computer:~$ source ~/.bashrc
 ```
 
 Переходим в папку с проектом:
 
 ```markdown
-cd /home/<USER>/web/<DOMAIN>/public_html
+user@computer:~$ cd /home/<USER>/web/<DOMAIN>/public_html
 ```
 
 где:
@@ -239,13 +239,13 @@ cd /home/<USER>/web/<DOMAIN>/public_html
 Устанавливаем Laravel:
 
 ```markdown
-laravel new
+user@computer:~$ laravel new
 ```
 
 или
 
 ```markdown
-composer create-project --prefer-dist laravel/laravel .
+user@computer:~$ composer create-project --prefer-dist laravel/laravel .
 ```
 
 > Laravel устанавливается в текущую папку.

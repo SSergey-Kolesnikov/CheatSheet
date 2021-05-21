@@ -242,6 +242,12 @@ cd /home/<USER>/web/<DOMAIN>/public_html
 laravel new
 ```
 
+или
+
+```markdown
+composer create-project --prefer-dist laravel/laravel .
+```
+
 > Laravel устанавливается в текущую папку.
 
 ## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
@@ -249,6 +255,7 @@ laravel new
 - [Installation - Laravel (laravel.com)](https://laravel.com/docs/7.x)
 - [Установка | Laravel по-русски (laravel.ru)](https://laravel.ru/docs/v5/installation)
 - [Установка (Laravel 5.4) — Laravel Framework Russian Community (laravel.su)](https://laravel.su/docs/5.4/installation)
+- [Как установить Laravel в корневую директорию? (qna.habr.com)](https://qna.habr.com/q/542836)
 - [Laravel on VestaCP (gist.github.com)](https://gist.github.com/peterbrinck/26684a078027a0c0c978a470be27edc3)
 - [need LARAVEL templates nginx and httpd ? (forum.vestacp.com)](https://forum.vestacp.com/viewtopic.php?t=6460)
 - [vesta_templates (github.com)](https://github.com/errogaht/vesta_templates)

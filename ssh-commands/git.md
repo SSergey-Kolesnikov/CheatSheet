@@ -391,7 +391,7 @@ git --version
 
 ## <a name="situations"></a> Ситуации [&uarr;](#content "Содержание")
 
-#### Переименование веток (локальная + удаленная)
+## Переименование веток (локальная + удаленная)
 - [[Git] Переименование ветки (локально и удаленно) (bulkin.me)](https://bulkin.me/notes/3783)
 
 ```markdown
@@ -399,6 +399,75 @@ git branch -m <OLD_BRANCH> <NEW_BRANCH> //Переименование лока�
 git push origin :<OLD_BRANCH> //Удаление удаленной ветки
 git push --set-upstream origin <NEW_BRANCH> //Вталкивание данных текущей ветки, при этом создавая удаленную ветку и связывая их
 ```
+
+## Ошибка "git fatal: unable to create thread: Resource temporarily unavailable"
+
+- [Настройка git fatal: unable to create thread: Resource temporarily unavailable) (aposnov.ru)](https://aposnov.ru/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-git-fatal-unable-to-create-thread-resource-temporarily-unavailable/)
+
+При попытке запушить, вываливается ошибка
+
+```markdown
+user@computer:~$ git push -u origin master
+Username for 'https://github.com': <USER>
+Password for 'https://<USER>@github.com':
+Counting objects: 57839, done.
+Delta compression using up to 48 threads.
+fatal: unable to create thread: Resource temporarily unavailable
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'https://github.com/<USER>/<REPOSITORY>.git'
+fatal: write error: Bad file descriptor
+```
+
+где:
+
+- `<USER>` - имя пользователя на [GitHub](https://github.com/);
+- `<REPOSITORY>` - наименование репозитория на [GitHub](https://github.com/);
+
+Добавляем настройки для Git'а
+
+```markdown
+user@computer:~$ git config --local pack.windowMemory 100m
+```
+
+```markdown
+user@computer:~$ git config --local pack.packSizeLimit 100m
+```
+
+```markdown
+user@computer:~$ git config --local pack.threads 1
+```
+
+Проверяем, применились ли настройки
+
+```markdown
+user@computer:~$ git config --list
+...
+pack.windowmemory=100m
+pack.packsizelimit=100m
+pack.threads=1
+```
+
+И повторно пушим коммиты на [GitHub](https://github.com/)
+
+```markdown
+user@computer:~$ git push -u origin master
+Username for 'https://github.com': <USER>
+Password for 'https://<USER>@github.com':
+Counting objects: 57839, done.
+Compressing objects: 100% (52256/52256), done.
+Writing objects: 100% (57839/57839), 305.32 MiB | 11.90 MiB/s, done.
+Total 57839 (delta 6839), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6839/6839), done.
+To https://github.com/<USER>/<REPOSITORY>.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+```
+
+где:
+
+- `<USER>` - имя пользователя на [GitHub](https://github.com/);
+- `<REPOSITORY>` - наименование репозитория на [GitHub](https://github.com/);
 
 ## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
 

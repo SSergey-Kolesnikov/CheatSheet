@@ -1,68 +1,100 @@
 [&larr;](readme.md "1С-Битрикс") Подборка готовых решений из маркетплейса Битрикса
 ----------------------------------------------------------------------------------
 
-- [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php)
-    - Наименование: [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/altop.enext/)  
+## <a name="content"></a> Содержание:
+
+- [ALTOP](#altop)
+    - [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](#altop.enext)
+- [Centino](#centino)
+    - [Centino:Инжиниринг - универсальный корпоративный сайт](#centino.heat)
+- [«INTEC» интернет-агентство](#intec)
+- [RANX](#ranx)
+    - [Landing - Конфигуратор сайтов и посадочных страниц](#ranx.landing)
+- [АЛЬФА Системс](#redsign)
+- [Аспро](#aspro)
+    - [Аспро: Максимум - интернет-магазин](#aspro.max)
+    - [Аспро: Некст - интернет-магазин](#aspro.next)
+    - [Аспро: Оптимус - интернет-магазин](#aspro.optimus)
+    - [Аспро: Маркет - адаптивный интернет-магазин](#aspro.mshop)
+    - [Аспро: Приорити – Корпоративный сайт](#aspro.priority)
+    - [Аспро: Корпоративный сайт 3.0](#aspro.allcorp3)
+    - [Аспро: Корпоративный сайт 2.0](#aspro.allcorp2)
+    - [Аспро: Корпоративный сайт современной компании](#aspro.scorp)
+    - [Аспро: Корпоративный сайт, адаптивный](#aspro.allcorp)
+    - [Аспро: Корпорация - адаптивный сайт](#aspro.corporation)
+- [ГВОЗДЕВСОФТ](#gvozdevsoft)
+- [Некстайп](#nextype)
+    - [Некстайп: Альфа — интернет-магазин](#nextype.alpha)
+    - [Некстайп: Магнит — интернет-магазин](#nextype.magnet)
+    - [Некстайп: Прайм - готовый сайт для бизнеса](#nextype.prime)
+    - [Некстайп: Корпорация – корпоративный сайт с корзиной и мультирегиональностью](#nextype.corporate)
+    - [Некстайп: МиниМаркет - лендинг с корзиной и онлайн-оплатой](#nextype.mmarket)
+    - [Некстайп: Премиум - лендинг с каталогом товаров и услуг](#nextype.premium)
+    
+## <a name="ready-made-solutions"></a> Готовые решения
+
+- #### <a name="altop"></a> [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php) [&uarr;](#content "Содержание")
+    - <a name="altop.enext"></a> Наименование: [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/altop.enext/)  
     Демо сайт: [enext.altop.pro](https://enext.altop.pro/)  
     Описание: ЭЛЕКТРОСИЛА NEXT - Новое готовое решение на базе которого вы сможете создать быстрый, удобный и широкоформатный интернет-магазин!
-- [Centino](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=9068953.php)
-    - Наименование: [Centino:Инжиниринг - универсальный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/centino.heat/)  
+- #### <a name="centino"></a> [Centino](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=9068953.php) [&uarr;](#content "Содержание")
+    - <a name="centino.heat"></a> Наименование: [Centino:Инжиниринг - универсальный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/centino.heat/)  
     Демо сайт: [heat.centino-demo.ru](https://heat.centino-demo.ru/)  
     Описание: Centino: Инжиниринг – корпоративный сайт для компаний в сфере проектирования и строительства инженерных коммуникаций. Готовое решение адаптировано под специфику бизнеса продажи и монтажа систем отопления, водоснабжения, автономной канализации, вентиляции и других строительных проектов.
-- [«INTEC» интернет-агентство](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=193047.php) - готовые решения под разные тематики сайтов.
-- [RANX](http://marketplace.1c-bitrix.ru/partners/detail.php?ID=8910405.php)
-    - Наименование: [Landing - Конфигуратор сайтов и посадочных страниц](http://marketplace.1c-bitrix.ru/solutions/ranx.landing/)  
+- #### <a name="intec"></a> [«INTEC» интернет-агентство](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=193047.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
+- #### <a name="ranx"></a> [RANX](http://marketplace.1c-bitrix.ru/partners/detail.php?ID=8910405.php) [&uarr;](#content "Содержание")
+    - <a name="ranx.landing"></a> Наименование: [Landing - Конфигуратор сайтов и посадочных страниц](http://marketplace.1c-bitrix.ru/solutions/ranx.landing/)  
     Демо сайт: [landing-demo.ru](https://landing-demo.ru/)  
     Описание: Создать сайт или посадочную страницу самому - легко! Landing-конфигуратор поможет справиться с этим без помощи программистов.
-- [АЛЬФА Системс](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=164683.php) - готовые решения под разные тематики сайтов.
-- [Аспро](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=310879.php)
-    - Наименование: [Аспро: Максимум - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.max/)  
+- #### <a name="redsign"></a> [АЛЬФА Системс](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=164683.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
+- #### <a name="aspro"></a> [Аспро](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=310879.php) [&uarr;](#content "Содержание")
+    - <a name="aspro.max"></a> Наименование: [Аспро: Максимум - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.max/)  
     Демо сайт: [max-demo.ru](https://max-demo.ru/)  
     Описание: Аспро: Максимум — универсальный интернет-магазин, разработанный с учетом пожеланий пользователей, современных тенденций и технологий для быстрой загрузки. Работает на опережение, решает реальные задачи бизнеса, идеально отображается на всех устройствах.
-    - Наименование: [Аспро: Некст - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.next/)  
+    - <a name="aspro.next"></a> Наименование: [Аспро: Некст - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.next/)  
     Демо сайт: [next.aspro-demo.ru](https://next.aspro-demo.ru/)  
     Описание: Аспро: Next – это универсальный интернет-магазин для товаров любой тематики с полноценной мультирегиональностью и посадочными страницами в каталоге, обзорах и поиске. Создан с учетом особых потребностей проектов, которые планируют развиваться и масштабироваться. Используйте безграничные возможности, чтобы создать свой уникальный интернет-магазин на основе готового решения!
-    - Наименование: [Аспро: Оптимус - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.optimus/)  
+    - <a name="aspro.optimus"></a> Наименование: [Аспро: Оптимус - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.optimus/)  
     Демо сайт: [optimus.aspro-demo.ru](https://optimus.aspro-demo.ru/)  
     Описание: Аспро: Оптимус – универсальное типовое решение для интернет-магазинов любой тематики. Максимально быстрая загрузка сайта и поддержка товаров с большим количеством торговых предложений! Подходит для всех категорий товаров — электроника, мебель, косметика, одежда, строительные материалы и т. д.
-    - Наименование: [Аспро: Маркет - адаптивный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.mshop/)  
+    - <a name="aspro.mshop"></a> Наименование: [Аспро: Маркет - адаптивный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.mshop/)  
     Демо сайт: [market.aspro-demo.ru](https://market.aspro-demo.ru/)  
     Описание: Аспро: Маркет - это универсальный интернет-магазин для продажи любых видов товаров. Решение прекрасно адаптировано для продажи одежды, электроники, бытовой техники, стройматериалов, детских товаров, оборудования, продуктов питания и прочих товаров.
-    - Наименование: [Аспро: Приорити – Корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.priority/)  
+    - <a name="aspro.priority"></a> Наименование: [Аспро: Приорити – Корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.priority/)  
     Демо сайт: [priority.aspro-demo.ru](https://priority.aspro-demo.ru/)  
     Описание: Аспро: Приорити – универсальное типовое решение, созданное с учетом потребностей среднего и крупного бизнеса. Идеально подойдет для компаний, работающих в b2b-сегменте и сложных тематиках – крупное производство, консалтинг, финансовые услуги (от аудита до юридических услуг), инвестиции и ценные бумаги, страхование, кибербезопасность и т.д.
-    - Наименование: [Аспро: Корпоративный сайт 3.0](http://marketplace.1c-bitrix.ru/solutions/aspro.allcorp3/)  
+    - <a name="aspro.allcorp3"></a> Наименование: [Аспро: Корпоративный сайт 3.0](http://marketplace.1c-bitrix.ru/solutions/aspro.allcorp3/)  
     Демо сайт: [allcorp3-demo.ru](https://allcorp3-demo.ru/)  
     Описание: Аспро: Корпоративный сайт 3.0 — технологически продвинутая платформа Аспро для создания веб-сайта. Ее возможности позволяют создать и запустить онлайн-проект в любой отрасли, а тематики помогут это сделать быстрее. В платформе детально проработаны и представлены на выбор 8 конфигураций универсального сайта. При этом количество возможных представлений настроек приближается к бесконечности. Все это помогает закрывать реальные задачи бизнеса и запускать успешные проекты в разных сферах: от металлопроката до косметологии и дизайнерской мебели.
-    - Наименование: [Аспро: Корпоративный сайт 2.0](https://marketplace.1c-bitrix.ru/solutions/aspro.allcorp2/)  
+    - <a name="aspro.allcorp2"></a> Наименование: [Аспро: Корпоративный сайт 2.0](https://marketplace.1c-bitrix.ru/solutions/aspro.allcorp2/)  
     Демо сайт: [allcorp2.aspro-demo.ru](https://allcorp2.aspro-demo.ru/)  
     Описание: Аспро: Корпоративный сайт 2.0 – универсальное готовое решение для создания корпоративного сайта с конструктором посадочных страниц и простой интеграцией с CRM-системами. Идеален для презентации товаров и услуг любой тематики – от промышленного производства до образовательных курсов.
-    - Наименование: [Аспро: Корпоративный сайт современной компании](https://marketplace.1c-bitrix.ru/solutions/aspro.scorp/)  
+    - <a name="aspro.scorp"></a> Наименование: [Аспро: Корпоративный сайт современной компании](https://marketplace.1c-bitrix.ru/solutions/aspro.scorp/)  
     Демо сайт: [scorp.aspro-demo.ru](https://scorp.aspro-demo.ru/)  
     Описание: Аспро: Корпоративный сайт современной компании - это профессиональное коробочное решение для создания корпоративного сайта по любой тематике: производство, строительство, продажи, учебные центры, медицинские учреждения, дизайн-студии и многие другие.
-    - Наименование: [Аспро: Корпоративный сайт, адаптивный](https://marketplace.1c-bitrix.ru/solutions/aspro.allcorp/)  
+    - <a name="aspro.allcorp"></a> Наименование: [Аспро: Корпоративный сайт, адаптивный](https://marketplace.1c-bitrix.ru/solutions/aspro.allcorp/)  
     Демо сайт: [allcorp.aspro-demo.ru](https://allcorp.aspro-demo.ru/)  
     Описание: Профессиональное решения для разработки корпоративного сайта по любой тематике.
-    - Наименование: [Аспро: Корпорация - адаптивный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.corporation/)  
+    - <a name="aspro.corporation"></a> Наименование: [Аспро: Корпорация - адаптивный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.corporation/)  
     Демо сайт: [corporation.aspro-demo.ru](https://corporation.aspro-demo.ru/)  
     Описание: Профессиональное решения для разработки корпоративного сайта по любой тематике.
-- [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов.
-- [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php)
-    - Наименование: [Некстайп: Альфа — интернет-магазин](http://marketplace.1c-bitrix.ru/solutions/nextype.alpha/)  
+- #### <a name="gvozdevsoft"></a> [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
+- #### <a name="nextype"></a> [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php) [&uarr;](#content "Содержание")
+    - <a name="nextype.alpha"></a> Наименование: [Некстайп: Альфа — интернет-магазин](http://marketplace.1c-bitrix.ru/solutions/nextype.alpha/)  
     Демо сайт: [alpha.nextype-demo.ru](http://alpha.nextype-demo.ru/)  
     Описание: «Некстайп: Альфа» — готовое решение для быстрого старта. На нём в короткие сроки можно запустить свой интернет-магазин. Дизайн акцентирует внимание на товаре, а интерфейс не перегружает пользователя. «Альфа» идеально отображается на всех устройствах и отлично сделана внутри.
-    - Наименование: [Некстайп: Магнит — интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/nextype.magnet/)  
+    - <a name="nextype.magnet"></a> Наименование: [Некстайп: Магнит — интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/nextype.magnet/)  
     Демо сайт: [magnet.nextype-demo.ru](https://magnet.nextype-demo.ru/)  
     Описание: «Некстайп: Магнит» – готовое универсальное решение интернет-магазина, позволяющее открыть online-направление для бизнеса любой сферы.
-    - Наименование: [Некстайп: Прайм - готовый сайт для бизнеса](https://marketplace.1c-bitrix.ru/solutions/nextype.prime/)  
+    - <a name="nextype.prime"></a> Наименование: [Некстайп: Прайм - готовый сайт для бизнеса](https://marketplace.1c-bitrix.ru/solutions/nextype.prime/)  
     Демо сайт: [prime.nextype-demo.ru](https://prime.nextype-demo.ru/)  
     Описание: «Некстайп: Прайм» — больше, чем корпоративный сайт. Это универсальное eCommerce решение, с помощью которого легко создать корпоративный сайт коммерческой направленности в короткие сроки.
-    - Наименование: [Некстайп: Корпорация – корпоративный сайт с корзиной и мультирегиональностью](https://marketplace.1c-bitrix.ru/solutions/nextype.corporate/)  
+    - <a name="nextype.corporate"></a> Наименование: [Некстайп: Корпорация – корпоративный сайт с корзиной и мультирегиональностью](https://marketplace.1c-bitrix.ru/solutions/nextype.corporate/)  
     Демо сайт: [corporate.nextype-demo.ru](https://corporate.nextype-demo.ru/)  
     Описание: «Некстайп: Корпорация» - универсальный корпоративный сайт, идеально подходящий для любых сфер бизнеса, с каталогом товаров и возможностью продвижения в регионах на основе поддоменов.
-    - Наименование: [Некстайп: МиниМаркет - лендинг с корзиной и онлайн-оплатой](https://marketplace.1c-bitrix.ru/solutions/nextype.mmarket/)  
+    - <a name="nextype.mmarket"></a> Наименование: [Некстайп: МиниМаркет - лендинг с корзиной и онлайн-оплатой](https://marketplace.1c-bitrix.ru/solutions/nextype.mmarket/)  
     Демо сайт: [mmarket.nextype-demo.ru](http://mmarket.nextype-demo.ru/)  
     Описание: Некстайп: Минимаркет – одностраничный сайт (лендинг пейдж), где можно ознакомиться с товаром в подразделах, положить необходимое количество в корзину, оформить заказ или выполнить онлайн-оплату. Это быстро и удобно, как небольшой магазин, в котором не тратишь время на поиски.
-    - Наименование: [Некстайп: Премиум - лендинг с каталогом товаров и услуг](https://marketplace.1c-bitrix.ru/solutions/nextype.premium/)  
+    - <a name="nextype.premium"></a> Наименование: [Некстайп: Премиум - лендинг с каталогом товаров и услуг](https://marketplace.1c-bitrix.ru/solutions/nextype.premium/)  
     Демо сайт: [premium.nextype-demo.ru](https://premium.nextype-demo.ru/)  
     Описание: Некстайп: Премиум - универсальный одностраничный сайт (landing page) с каталогом товаров, нацеленный на продажу ограниченного ассортимента, но с возможностью комфортного отображения более чем 100 позиций.

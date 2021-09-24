@@ -27,6 +27,7 @@
     - [Аспро: Корпоративный сайт, адаптивный](#aspro.allcorp)
     - [Аспро: Корпорация - адаптивный сайт](#aspro.corporation)
 - [ГВОЗДЕВСОФТ](#gvozdevsoft)
+- [Интернет-агентство «Веб Фабрика»](#vebfabrika)
 - [Некстайп](#nextype)
     - [Некстайп: Альфа — интернет-магазин](#nextype.alpha)
     - [Некстайп: Магнит — интернет-магазин](#nextype.magnet)
@@ -91,6 +92,7 @@
     - <a name="aspro.corporation"></a> Наименование: [Аспро: Корпорация - адаптивный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.corporation/)  
     Демо сайт: [corporation.aspro-demo.ru](https://corporation.aspro-demo.ru/)  
     Описание: Профессиональное решения для разработки корпоративного сайта по любой тематике.
+- #### <a name="vebfabrika"></a> [Интернет-агентство «Веб Фабрика»](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=1899461.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
 - #### <a name="gvozdevsoft"></a> [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
 - #### <a name="nextype"></a> [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php) [&uarr;](#content "Содержание")
     - <a name="nextype.alpha"></a> Наименование: [Некстайп: Альфа — интернет-магазин](http://marketplace.1c-bitrix.ru/solutions/nextype.alpha/)  

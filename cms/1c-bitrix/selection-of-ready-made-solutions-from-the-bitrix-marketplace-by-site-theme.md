@@ -42,6 +42,8 @@
         - Наименование: [Некстайп: Прайм - готовый сайт для бизнеса](https://marketplace.1c-bitrix.ru/solutions/nextype.prime/)  
         Демо сайт: [prime.nextype-demo.ru](https://prime.nextype-demo.ru/)  
         Описание: «Некстайп: Прайм» — больше, чем корпоративный сайт. Это универсальное eCommerce решение, с помощью которого легко создать корпоративный сайт коммерческой направленности в короткие сроки.
+        - <a name="ms.ubershop"></a> Наименование: [UberShop - адаптивный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/ms.ubershop/)  
+        Демо сайт: [ubershop.evolat.ru](https://ubershop.evolat.ru/)
 - #### <a name="corporate-websites"></a> Корпоративные сайты [&uarr;](#content "Содержание")
     - ##### <a name="corporate-websites-general"></a> Общие [&uarr;](#content "Содержание")
         - Наименование: [Аспро: Приорити – Корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.priority/)  
@@ -65,6 +67,12 @@
         - Наименование: [Некстайп: Корпорация – корпоративный сайт с корзиной и мультирегиональностью](https://marketplace.1c-bitrix.ru/solutions/nextype.corporate/)  
         Демо сайт: [corporate.nextype-demo.ru](https://corporate.nextype-demo.ru/)  
         Описание: «Некстайп: Корпорация» - универсальный корпоративный сайт, идеально подходящий для любых сфер бизнеса, с каталогом товаров и возможностью продвижения в регионах на основе поддоменов.
+        - <a name="ms.active"></a> Наименование: [Active - стильный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/ms.active/)  
+        Демо сайт: [active.evolat.ru](https://active.evolat.ru/)  
+        Описание: Active - это современное и удобное решение для создания корпоративного сайта. Решение универсально и прекрасно подойдет для любой тематики. Благодаря большому количеству настроек вы сможете подобрать для себя оптимальный вариант дизайна.
+        - <a name="ms.evolution"></a> Наименование: [Evolution - элегантный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/ms.evolution/)  
+        Демо сайт: [evolution.evolat.ru](https://evolution.evolat.ru/)  
+        Описание: Evolution - это современное и удобное решение для создания корпоративного сайта. Решение универсально и прекрасно подойдет для любой тематики. Благодаря большому количеству настроек вы сможете подобрать для себя оптимальный вариант дизайна.
     - ##### <a name="corporate-websites-engineering"></a> Инженерия [&uarr;](#content "Содержание")
         - Наименование: [Centino:Инжиниринг - универсальный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/centino.heat/)  
         Демо сайт: [heat.centino-demo.ru](https://heat.centino-demo.ru/)  

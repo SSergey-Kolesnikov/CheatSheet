@@ -3,6 +3,7 @@
 
 ## <a name="content"></a> Содержание:
 
+- [Декартово произведение множеств в PHP](cartesian-product-of-sets-in-php.md "Декартово произведение множеств в PHP")
 - [Отключение проверки SSL-сертификата в cURL](disable-ssl-certificate-verification-in-curl.md "Отключение проверки SSL-сертификата в cURL")
 - [Получение идентификаторов дочерних категорий](gets-all-of-the-childs-category-ids.md "Получение идентификаторов дочерних категорий")
 - [Получение идентификаторов родительских категорий](gets-all-of-the-parents-category-ids.md "Получение идентификаторов родительских категорий")

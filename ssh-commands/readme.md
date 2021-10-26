@@ -4,6 +4,7 @@
 ## <a name="content"></a> Содержание:
 
 - [Apache](apache.md "Apache")
+- [Composer](composer.md "Composer")
 - [Cron](cron.md "Cron")
 - [Git](git.md "Git")
 - [Midnight Commander](midnight-commander.md "Midnight Commander")

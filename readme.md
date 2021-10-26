@@ -14,6 +14,7 @@
     - [Примеры](php/examples/readme.md "Примеры")
 - [SSH команды](ssh-commands/readme.md "SSH команды")
     - [Apache](ssh-commands/apache.md "Apache")
+    - [Composer](ssh-commands/composer.md "Composer")
     - [Cron](ssh-commands/cron.md "Cron")
     - [Git](ssh-commands/git.md "Git")
     - [Midnight Commander (MC)](ssh-commands/midnight-commander.md "Midnight Commander (MC)")

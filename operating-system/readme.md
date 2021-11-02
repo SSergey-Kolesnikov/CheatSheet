@@ -3,5 +3,5 @@
 
 ## <a name="content"></a> Содержание:
 
-- [Ubuntu](ubuntu/readme.md "Ubuntu")
-- [Windows](windows/readme.md "Windows")
+- [Ubuntu](ubuntu/readme.md)
+- [Windows](windows/readme.md)

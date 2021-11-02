@@ -3,13 +3,13 @@
 
 ## <a name="content"></a> Содержание:
 
-- [Переменное число параметров функции](#functions-variable-number-of-function-parameters "Переменное число параметров функции")
-- [Типы аргументов и возвращаемого значения](#functions-types-of-arguments-and-return-value "Типы аргументов и возвращаемого значения")
-- [Строгая типизация](#functions-strong-typing "Строгая типизация")
-- [Особенности инструкции global](#functions-features-of-the-global-instructionfunctions-features-of-the-global-instruction "Строгая типизация")
-- [Статические переменные](#functions-static-variables "Статические переменные")
-- [Передача функций по ссылке](#functions-passing-functions-by-reference "Передача функций по ссылке")
-- [Замыкание](#functions-circuit "Замыкание")
+- [Переменное число параметров функции](#functions-variable-number-of-function-parameters)
+- [Типы аргументов и возвращаемого значения](#functions-types-of-arguments-and-return-value)
+- [Строгая типизация](#functions-strong-typing)
+- [Особенности инструкции global](#functions-features-of-the-global-instructionfunctions-features-of-the-global-instruction)
+- [Статические переменные](#functions-static-variables)
+- [Передача функций по ссылке](#functions-passing-functions-by-reference)
+- [Замыкание](#functions-circuit)
 
 ## <a name="functions-variable-number-of-function-parameters"></a> Переменное число параметров функции [&uarr;](#content "Содержание")
 

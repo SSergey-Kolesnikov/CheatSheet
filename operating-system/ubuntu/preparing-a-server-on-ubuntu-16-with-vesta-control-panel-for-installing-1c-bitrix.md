@@ -9,13 +9,13 @@
 - [Настройка Vesta Control Panel](#setting-up-vesta-control-panel)
 - [Смена версии PHP для сайта](#php-version-change-for-the-site)
 
-## <a name="server-requirements"></a> Требования к серверу [&uarr;](#content "Содержание")
+## <a name="server-requirements"></a> Требования к серверу
 
 - PHP 7.1 и выше (рекомендуемая версия PHP 7.2)
 - Apache 1.3 и выше
 - MySQL 5.6 и выше
 
-## <a name="php-version-and-extensions"></a> Версия и расширения PHP [&uarr;](#content "Содержание")
+## <a name="php-version-and-extensions"></a> Версия и расширения PHP
 
 Панель Vesta Control Panel (на момент публикации 0.9.8-26) поставляется с версией PHP 7.0.33 и версия PHP не подходит для установки 1С-Битрикс.
 
@@ -23,7 +23,7 @@
 
 > Предполагаем, что установили версию PHP 7.4.
 
-## <a name="file-php-ini"></a> Файл `php.ini` [&uarr;](#content "Содержание")
+## <a name="file-php-ini"></a> Файл `php.ini`
 
 Для того, чтобы установить 1С-Битрикс, необходимо изменить как минимум два параметра mbstring - это `mbstring.func_overload` и `mbstring.internal_encoding`. По умолчанию эти параметры имеют значения `0` и `no value` соответственно и при таких значениях установщик 1С-Битрикса не даст развернуть CMS.
 
@@ -55,7 +55,7 @@ upload_max_filesize = 20M
 sudo service apache2 restart
 ```
 
-## <a name="setting-up-vesta-control-panel"></a> Настройка Vesta Control Panel [&uarr;](#content "Содержание")
+## <a name="setting-up-vesta-control-panel"></a> Настройка Vesta Control Panel
 
 По умолчанию в Vesta Control Panel есть шаблон phpcgi. Копируем файлы этого шаблона:
 
@@ -95,7 +95,7 @@ sudo chmod 755 /usr/local/vesta/data/templates/web/apache2/php7.4-bitrix.sh
 sudo service vesta restart
 ```
 
-## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта [&uarr;](#content "Содержание")
+## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта
 
 Активация версии PHP 7.4 для 1С-Битрикс выполняется следующим образом:
 

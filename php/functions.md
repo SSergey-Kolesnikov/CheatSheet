@@ -11,7 +11,7 @@
 - [Передача функций по ссылке](#functions-passing-functions-by-reference)
 - [Замыкание](#functions-circuit)
 
-## <a name="functions-variable-number-of-function-parameters"></a> Переменное число параметров функции [&uarr;](#content "Содержание")
+## <a name="functions-variable-number-of-function-parameters"></a> Переменное число параметров функции
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 216 страница; pdf - 212 страница);
 
@@ -63,7 +63,7 @@ toomanyargs(...$planets);
 Четвертый параметр: Марс
 ```
 
-## <a name="functions-types-of-arguments-and-return-value"></a> Типы аргументов и возвращаемого значения [&uarr;](#content "Содержание")
+## <a name="functions-types-of-arguments-and-return-value"></a> Типы аргументов и возвращаемого значения
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 217 страница; pdf - 213 страница);
 
@@ -78,7 +78,7 @@ echo sum(2.5, 2.5); // Fatal Error в PHP < 7, Exception TypeError в PHP >=7
 
 PHP автоматически приводит вещественный тип к целому. Для того чтобы PHP эмулировал режим жесткой типизации и требовал от аргументов функции указанные при объявлении типов, необходимо включить строгий режим типизации.
 
-## <a name="functions-strong-typing"></a> Строгая типизация [&uarr;](#content "Содержание")
+## <a name="functions-strong-typing"></a> Строгая типизация
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 218 страница; pdf - 214 страница);
 
@@ -95,7 +95,7 @@ echo sum(2.5, 2.5); // Fatal Error в PHP < 7, Exception TypeError в PHP >=7
 
 До версии PHP7 использование неправильного типа в строгом режиме приводил к выдаче ошибки и остановке программы. Начиная с PHP7, вместо ошибки генерируется исключение `TypeError`, которое можно перехватить в программе.
 
-## <a name="functions-features-of-the-global-instruction"></a> Особенности инструкции global [&uarr;](#content "Содержание")
+## <a name="functions-features-of-the-global-instruction"></a> Особенности инструкции global
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 221 страница; pdf - 217 страница);
 
@@ -129,7 +129,7 @@ echo $a;
 
 В данном примере будет предупреждение, что переменная `$a` не определена!
 
-## <a name="functions-static-variables"></a> Статические переменные [&uarr;](#content "Содержание")
+## <a name="functions-static-variables"></a> Статические переменные
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 222 страница; pdf - 218 страница);
 
@@ -145,7 +145,7 @@ for ($i = 0; $i < 5; $i++) selfcount();
 
 После запуска будет выведена строка `12345`, а если убрать statis - то `11111`.
 
-## <a name="functions-passing-functions-by-reference"></a> Передача функций по ссылке [&uarr;](#content "Содержание")
+## <a name="functions-passing-functions-by-reference"></a> Передача функций по ссылке
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 228 страница; pdf - 224 страница);
 
@@ -169,7 +169,7 @@ call_user_func("B", 201);
 Вызвана B(201)
 ```
 
-## <a name="functions-circuit"></a> Замыкание [&uarr;](#content "Содержание")
+## <a name="functions-circuit"></a> Замыкание
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 230 страница; pdf - 226 страница);
 

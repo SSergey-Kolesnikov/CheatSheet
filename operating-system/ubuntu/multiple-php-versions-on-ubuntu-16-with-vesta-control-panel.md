@@ -13,7 +13,7 @@
 - [Смена версии PHP для сайта](#php-version-change-for-the-site)
 - [Источники](#sources)
 
-## <a name="install-php-7-4"></a> Установка PHP 7.4 [&uarr;](#content "Содержание")
+## <a name="install-php-7-4"></a> Установка PHP 7.4
 
 Обновляем список пакетов:
 
@@ -63,7 +63,7 @@ apt-get install php7.4-cgi php7.4-cli php7.4-common php7.4-curl php7.4-gd php7.4
 ln -sf /usr/bin/php-cgi7.4 /usr/bin/php-cgi74
 ```
 
-## <a name="configure-apache"></a> Настройка Apache [&uarr;](#content "Содержание")
+## <a name="configure-apache"></a> Настройка Apache
 
 Активируем CGI модуль веб-сервера:
 
@@ -77,7 +77,7 @@ a2enmod actions cgi
 service apache2 restart
 ```
 
-## <a name="vesta-control-panel-templates"></a> Шаблоны Vesta Control Panel [&uarr;](#content "Содержание")
+## <a name="vesta-control-panel-templates"></a> Шаблоны Vesta Control Panel
 
 По умолчанию в Vesta Control Panel есть шаблон phpcgi. Копируем файлы этого шаблона:
 
@@ -117,7 +117,7 @@ chmod 755 /usr/local/vesta/data/templates/web/apache2/php7.4.sh
 service vesta restart
 ```
 
-## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта [&uarr;](#content "Содержание")
+## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта
 
 Активация версии PHP 7.4 выполняется следующим образом:
 
@@ -128,7 +128,7 @@ service vesta restart
 - Нажимаем кнопку «Сохранить».
 
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [How to install PHP (7.2, 7.3 or 7.4) on Ubuntu (thishosting.rocks)](https://thishosting.rocks/install-php-on-ubuntu/)
 - [Как установить PHP 7.2 на Ubuntu 16.04 (andreyex.ru)](https://andreyex.ru/ubuntu/kak-ustanovit-php-7-2-na-ubuntu-16-04/)

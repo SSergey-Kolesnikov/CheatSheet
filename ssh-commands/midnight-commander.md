@@ -9,6 +9,6 @@ Midnight Commander - один из файловых менеджеров с те
 mc
 ```
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [Midnight Commander (ru.wikipedia.org)](https://ru.wikipedia.org/wiki/Midnight_Commander)

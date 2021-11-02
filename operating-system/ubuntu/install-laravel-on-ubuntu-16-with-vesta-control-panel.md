@@ -13,7 +13,7 @@
 - [Установка Laravel](#install-laravel)
 - [Источники](#sources)
 
-## <a name="server-requirements"></a> Требования к серверу [&uarr;](#content "Содержание")
+## <a name="server-requirements"></a> Требования к серверу
 
 Фреймворк Laravel предъявляет системные требования к серверу и он должен соответствовать им.
 
@@ -30,7 +30,7 @@
 - Tokenizer PHP Extension
 - XML PHP Extension
 
-## <a name="php-version-and-extensions"></a> Версия и расширения PHP [&uarr;](#content "Содержание")
+## <a name="php-version-and-extensions"></a> Версия и расширения PHP
 
 Панель Vesta Control Panel (на момент публикации 0.9.8-26) поставляется с версией PHP 7.0.33 и версия PHP не подходит для установки последней версии Laravel.
 
@@ -38,7 +38,7 @@
 
 > Предполагаем, что установили версию PHP 7.4.
 
-## <a name="setting-up-vesta-control-panel"></a> Настройка Vesta Control Panel [&uarr;](#content "Содержание")
+## <a name="setting-up-vesta-control-panel"></a> Настройка Vesta Control Panel
 
 По умолчанию в Vesta Control Panel есть шаблон phpcgi. Копируем файлы этого шаблона:
 
@@ -183,7 +183,7 @@ DocumentRoot %docroot%/public
 user@computer:~$ sudo service vesta restart
 ```
 
-## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта [&uarr;](#content "Содержание")
+## <a name="php-version-change-for-the-site"></a> Смена версии PHP для сайта
 
 Активация версии PHP 7.4 для Laravel выполняется следующим образом:
 
@@ -193,13 +193,13 @@ user@computer:~$ sudo service vesta restart
 - Находим пункт «Шаблон Web Apache2» и выбираем из выпадающего списка шаблон php7.4-laravel;
 - Нажимаем кнопку «Сохранить».
 
-## <a name="composer"></a> Composer [&uarr;](#content "Содержание")
+## <a name="composer"></a> Composer
 
 Laravel использует [Composer](https://getcomposer.org/) для управления зависимостями. Поэтому сначала устанавливаем Composer, а затем Laravel.
 
 Для установки Composer можно воспользоваться инструкцией "[Установка Composer на Ubuntu 16](install-composer-on-ubuntu-16.md)".
 
-## <a name="install-laravel"></a> Установка Laravel [&uarr;](#content "Содержание")
+## <a name="install-laravel"></a> Установка Laravel
 
 Переходим в домашнюю папку:
 
@@ -250,7 +250,7 @@ user@computer:~$ composer create-project --prefer-dist laravel/laravel .
 
 > Laravel устанавливается в текущую папку.
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [Installation - Laravel (laravel.com)](https://laravel.com/docs/7.x)
 - [Установка | Laravel по-русски (laravel.ru)](https://laravel.ru/docs/v5/installation)

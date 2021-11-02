@@ -12,7 +12,7 @@
 - [Проверка работы PHP](#check-php)
 - [Источники](#sources)
 
-## <a name="download-php"></a> Скачивание PHP [&uarr;](#content "Содержание")
+## <a name="download-php"></a> Скачивание PHP
 
 С официального сайта PHP скачиваем zip-архив последней версии [PHP для Windows](https://windows.php.net/download/) с учетом разрядности системы (x64 или x86). В случае необходимости определенной версии PHP, ищем ее в разделе "[Archives](https://windows.php.net/downloads/releases/archives/)".
 
@@ -20,13 +20,13 @@
 > - если планируется использовать PHP на Windows через встроенный SAPI модуль WEB-сервера Apache (или другого WEB-сервера), то используем Thread Safe версию PHP, т.к. SAPI модуля WEB серверов являются много поточными и PHP может выполняться в нескольких параллельных потоках;
 > - если планируется использовать PHP только как внешнее CGI или CLI приложение через FastCGI/CGI или CLI (в них PHP запускается только как параллельный процесс), то выбираем Non Thread Safe версию PHP.
 
-## <a name="microsoft-visual-c-redistributable-for-visual-studio"></a> Распространяемый компонент Microsoft Visual C++ для Visual Studio [&uarr;](#content "Содержание")
+## <a name="microsoft-visual-c-redistributable-for-visual-studio"></a> Распространяемый компонент Microsoft Visual C++ для Visual Studio
 
 Сборки PHP выполнены в Visual Studio (на момент публикации с пакетом VC15), поэтому для установки последней версиии PHP необходим пакет Microsoft Visual C++ 2015-2019 Redistributable, устанавливающий компоненты среды выполнения библиотек Visual C++.
 
 Скачать пакет можно на официальном сайте Microsoft со страницы загрузки Visual Studio в разделе "Скачиваемые файлы" &#10132; "Другие инструменты и платформы" &#10132; "[Распространяемый компонент Microsoft Visual C++ для Visual Studio 2019](https://visualstudio.microsoft.com/ru/downloads/#other-ru-family)". Второй вариант, скачать со страницы поддержки Microsoft "[Последние поддерживаемые версии Visual C++ для скачивания](https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads)".
 
-## <a name="hosting-php-on-windows"></a> Размещение PHP в Windows [&uarr;](#content "Содержание")
+## <a name="hosting-php-on-windows"></a> Размещение PHP в Windows
 
 Распаковываем содержимое архива на диск, к примеру в папку `C:\PHP\<VERSION>` (где `<VERSION>` - номер версии PHP).
 
@@ -41,7 +41,7 @@
 - В открывшемся окне "Изменение пользовательской переменной" в значении переменной через точку с запятой добавляем путь до PHP интерпритатора `C:\PHP\<VERSION>;` (где `<VERSION>` - номер версии PHP) и сохраняем изменения во всех окнах.  
 ![Изменение пользовательской переменной](../../images/installing-php-interpreter-in-windows-7/change-user-variable.jpg)
 
-## <a name="file-php-ini"></a> Файл `php.ini` [&uarr;](#content "Содержание")
+## <a name="file-php-ini"></a> Файл `php.ini`
 
 Конфигурационный файл `php.ini` является основным инструментом настройки ядра PHP.
 
@@ -54,7 +54,7 @@
 
 Переименовываем файл `C:\PHP\<VERSION>\php.ini-development` или `C:\PHP\<VERSION>\php.ini-production` в `C:\PHP\<VERSION>\php.ini` (где `<VERSION>` - номер версии PHP) и, в случае необходимости, прописываем необходимые настройки.
 
-## <a name="check-php"></a> Проверка работы PHP [&uarr;](#content "Содержание")
+## <a name="check-php"></a> Проверка работы PHP
 
 Для проверки корректности установки и настройки PHP, в командной строке вводим:
 
@@ -70,7 +70,7 @@ Copyright (c) The PHP Group
 Zend Engine v3.4.0, Copyright (c) Zend Technologies
 ```
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [Установка PHP7 на Windows (andew.ru)](https://andew.ru/ru/pages/page/install-php-on-windows)
 - [Скачайте Visual Studio 2019 для Windows и Mac (visualstudio.microsoft.com)](https://visualstudio.microsoft.com/ru/downloads/#other-ru-family)

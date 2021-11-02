@@ -6,7 +6,7 @@
 - [Null-коалесцентный оператор](#operators_null_coalesce_op)
 - [Оператор "космический корабль"](#operators_spaceship_op)
 
-## <a name="operators_null_coalesce_op"></a> Null-коалесцентный оператор [&uarr;](#content "Содержание")
+## <a name="operators_null_coalesce_op"></a> Null-коалесцентный оператор
 
 - [Тернарный оператор (php.net)](https://www.php.net/manual/ru/language.operators.comparison.php#language.operators.comparison.ternary)
 - [Оператор объединения с null (php.net)](https://www.php.net/manual/ru/migration70.new-features.php#migration70.new-features.null-coalesce-op)
@@ -43,7 +43,7 @@ $bar = $foo ?? 'default';
 $bar = $foo ?? $baz ?? 'default';
 ```
 
-## <a name="operators_spaceship_op"></a> Оператор "космический корабль" [&uarr;](#content "Содержание")
+## <a name="operators_spaceship_op"></a> Оператор "космический корабль"
 
 - Котеров Д., Симдянов И. - PHP 7 в подлиннике (ориг. - 162 страница; pdf - 158 страница);
 - [Оператор spaceship (космический корабль) (php.net)](https://www.php.net/manual/ru/migration70.new-features.php#migration70.new-features.spaceship-op)

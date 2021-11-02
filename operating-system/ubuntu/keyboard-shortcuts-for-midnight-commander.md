@@ -9,7 +9,7 @@ Midnight Commander (MC) - один из файловых менеджеров с
 - [Работа с каталогами](#keyboard-shortcuts-work-with-directories)
 - [Источники](#sources)
 
-## <a name="keyboard-shortcuts-work-with-panels"></a> Работа с панелями [&uarr;](#content "Содержание")
+## <a name="keyboard-shortcuts-work-with-panels"></a> Работа с панелями
 
 #### Консоль без выхода из MC
 
@@ -23,7 +23,7 @@ Ctrl + O
 Ctrl + U
 ```
 
-## <a name="keyboard-shortcuts-work-with-directories"></a> Работа с каталогами [&uarr;](#content "Содержание")
+## <a name="keyboard-shortcuts-work-with-directories"></a> Работа с каталогами
 
 #### Открытие текущего каталога в соседней панели
 
@@ -45,7 +45,7 @@ Ctrl + Space
 
 В случае, если курсор находится на `/..`, то подсчет размера идет по всем папкам текущего каталога.
 
-## <a name="source"></a> Источник [&uarr;](#content "Содержание")
+## <a name="source"></a> Источник
 
 - [Midnight Commander (ru.wikipedia.org)](https://ru.wikipedia.org/wiki/Midnight_Commander)
 - [Шпаргалка по mc (midnight commander) (prosto-tak.ru)](https://prosto-tak.ru/shpargalka-po-mc-midnight-commander/)

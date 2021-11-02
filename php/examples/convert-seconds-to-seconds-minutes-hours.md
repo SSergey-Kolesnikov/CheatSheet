@@ -7,7 +7,7 @@
 - [Вывод времени с учетом нулевых значений](#time-output-based-on-zero-values)
 - [Источник](#source)
 
-## <a name="time-output-without-zero"></a> Вывод времени без учета нулевых значений [&uarr;](#content "Содержание")
+## <a name="time-output-without-zero"></a> Вывод времени без учета нулевых значений
 
 Листинг:
 
@@ -66,7 +66,7 @@ function seconds2times($seconds, $count_zero = false) {
 123456 сек. = 34час. 17мин. 36сек.
 ```
 
-## <a name="time-output-based-on-zero-values"></a> Вывод времени с учетом нулевых значений [&uarr;](#content "Содержание")
+## <a name="time-output-based-on-zero-values"></a> Вывод времени с учетом нулевых значений
 
 Листинг:
 
@@ -125,6 +125,6 @@ function seconds2times($seconds, $count_zero = false) {
 123456 сек. = 34час. 17мин. 36сек.
 ```
 
-## <a name="source"></a> Источник [&uarr;](#content "Содержание")
+## <a name="source"></a> Источник
 
 - [Секунды в дни-часы-минуты (PHP) (expange.ru)](https://expange.ru/e/Секунды_в_дни-часы-минуты_(PHP))

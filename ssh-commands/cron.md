@@ -35,7 +35,7 @@ user@computer:~$ crontab -e
 - `<DAY_OF_WEEK>` - день недели, указывается число (0 - 6) или символ `*`;
 - `<COMMAND>` - команда, которую необходимо запустить;
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [Настройка Cron (losst.ru)](https://losst.ru/nastrojka-cron)
 - [Cron: что это такое и как его правильно использовать (timeweb.com)](https://timeweb.com/ru/community/articles/chto-takoe-cron)

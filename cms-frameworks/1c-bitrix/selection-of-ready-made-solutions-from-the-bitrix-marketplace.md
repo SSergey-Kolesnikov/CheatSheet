@@ -48,15 +48,15 @@
     
 ## <a name="ready-made-solutions"></a> Готовые решения
 
-- #### <a name="altop"></a> [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php) [&uarr;](#content "Содержание")
+- #### <a name="altop"></a> [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php)
     - <a name="altop.enext"></a> Наименование: [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/altop.enext/)  
     Демо сайт: [enext.altop.pro](https://enext.altop.pro/)  
     Описание: ЭЛЕКТРОСИЛА NEXT - Новое готовое решение на базе которого вы сможете создать быстрый, удобный и широкоформатный интернет-магазин!
-- #### <a name="centino"></a> [Centino](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=9068953.php) [&uarr;](#content "Содержание")
+- #### <a name="centino"></a> [Centino](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=9068953.php)
     - <a name="centino.heat"></a> Наименование: [Centino:Инжиниринг - универсальный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/centino.heat/)  
     Демо сайт: [heat.centino-demo.ru](https://heat.centino-demo.ru/)  
     Описание: Centino: Инжиниринг – корпоративный сайт для компаний в сфере проектирования и строительства инженерных коммуникаций. Готовое решение адаптировано под специфику бизнеса продажи и монтажа систем отопления, водоснабжения, автономной канализации, вентиляции и других строительных проектов.
-- #### <a name="evolat"></a> [Evolat](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=419367.php) [&uarr;](#content "Содержание")
+- #### <a name="evolat"></a> [Evolat](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=419367.php)
     - <a name="ms.ubershop"></a> Наименование: [UberShop - адаптивный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/ms.ubershop/)  
     Демо сайт: [ubershop.evolat.ru](https://ubershop.evolat.ru/)
     - <a name="ms.active"></a> Наименование: [Active - стильный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/ms.active/)  
@@ -65,12 +65,12 @@
     - <a name="ms.evolution"></a> Наименование: [Evolution - элегантный корпоративный сайт](https://marketplace.1c-bitrix.ru/solutions/ms.evolution/)  
     Демо сайт: [evolution.evolat.ru](https://evolution.evolat.ru/)  
     Описание: Evolution - это современное и удобное решение для создания корпоративного сайта. Решение универсально и прекрасно подойдет для любой тематики. Благодаря большому количеству настроек вы сможете подобрать для себя оптимальный вариант дизайна.
-- #### <a name="intec"></a> [«INTEC» интернет-агентство](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=193047.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
-- #### <a name="ranx"></a> [RANX](http://marketplace.1c-bitrix.ru/partners/detail.php?ID=8910405.php) [&uarr;](#content "Содержание")
+- #### <a name="intec"></a> [«INTEC» интернет-агентство](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=193047.php) - готовые решения под разные тематики сайтов.
+- #### <a name="ranx"></a> [RANX](http://marketplace.1c-bitrix.ru/partners/detail.php?ID=8910405.php)
     - <a name="ranx.landing"></a> Наименование: [Landing - Конфигуратор сайтов и посадочных страниц](http://marketplace.1c-bitrix.ru/solutions/ranx.landing/)  
     Демо сайт: [landing-demo.ru](https://landing-demo.ru/)  
     Описание: Создать сайт или посадочную страницу самому - легко! Landing-конфигуратор поможет справиться с этим без помощи программистов.
-- #### <a name="af"></a> [Александр Ирбис](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=1226703.php) [&uarr;](#content "Содержание")
+- #### <a name="af"></a> [Александр Ирбис](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=1226703.php)
     - <a name="af.whiteplus"></a> Наименование: [Интернет магазин Эко Плюс](https://marketplace.1c-bitrix.ru/solutions/af.whiteplus/)  
     Демо сайт: [atorex.ru/lt7/](http://atorex.ru/lt7/)  
     Описание: Корпоративный сайт "Эко Плюс" - это готовый интернет магазин на редакции бизнес и малый бизнес для создания сайта любой тематики: производство, строительство, продажи, учебные центры, медицинские учреждения, дизайн-студии и многие другие.
@@ -80,7 +80,7 @@
     - <a name="af.white"></a> Наименование: [Корпоративный сайт Эко](https://marketplace.1c-bitrix.ru/solutions/af.white/)  
     Демо сайт: [atorex.ru/lt5/](https://atorex.ru/lt5/)  
     Описание: Корпоративный сайт "Эко" - это готовое решение на редакции старт для создания сайта любой тематики: производство, строительство, продажи, учебные центры, медицинские учреждения, дизайн-студии и многие другие.
-- #### <a name="redsign"></a> [АЛЬФА Системс](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=164683.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
+- #### <a name="redsign"></a> [АЛЬФА Системс](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=164683.php) - готовые решения под разные тематики сайтов.
     > В данном списке выбраны готовые решения на общие тематики под интернет-магазины и корпоративные сайты. Большее количество готовых решений на странице разработчика.
     - <a name="redsign.megamart"></a> Наименование: [АЛЬФА: MegaMart – интернет магазин (Новинка)](https://marketplace.1c-bitrix.ru/solutions/redsign.megamart/)  
     Демо сайт: [megamart.redsign.ru/promo/](https://megamart.redsign.ru/promo/)  
@@ -99,7 +99,7 @@
     - <a name="redsign.master"></a> Наименование: [Master 2 в 1: корпоративный сайт + магазин](https://marketplace.1c-bitrix.ru/solutions/redsign.master/)  
     Демо сайт: [master.redsign.ru](https://master.redsign.ru/)  
     Описание: Master — универсальный сайт компании для товаров и услуг любой тематики, который содержит конструктор лендингов “из коробки” и неограниченные возможности для настройки и персонализации. Разработан с учетом потребностей малого и среднего бизнеса. Создайте сайт вашей компании уже сегодня, используя готовое решение Master и неограниченные возможности настройки.
-- #### <a name="aspro"></a> [Аспро](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=310879.php) [&uarr;](#content "Содержание")
+- #### <a name="aspro"></a> [Аспро](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=310879.php)
     - <a name="aspro.max"></a> Наименование: [Аспро: Максимум - интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/aspro.max/)  
     Демо сайт: [max-demo.ru](https://max-demo.ru/)  
     Описание: Аспро: Максимум — универсальный интернет-магазин, разработанный с учетом пожеланий пользователей, современных тенденций и технологий для быстрой загрузки. Работает на опережение, решает реальные задачи бизнеса, идеально отображается на всех устройствах.
@@ -130,9 +130,9 @@
     - <a name="aspro.corporation"></a> Наименование: [Аспро: Корпорация - адаптивный сайт](https://marketplace.1c-bitrix.ru/solutions/aspro.corporation/)  
     Демо сайт: [corporation.aspro-demo.ru](https://corporation.aspro-demo.ru/)  
     Описание: Профессиональное решения для разработки корпоративного сайта по любой тематике.
-- #### <a name="vebfabrika"></a> [Интернет-агентство «Веб Фабрика»](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=1899461.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
-- #### <a name="gvozdevsoft"></a> [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов. [&uarr;](#content "Содержание")
-- #### <a name="nextype"></a> [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php) [&uarr;](#content "Содержание")
+- #### <a name="vebfabrika"></a> [Интернет-агентство «Веб Фабрика»](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=1899461.php) - готовые решения под разные тематики сайтов.
+- #### <a name="gvozdevsoft"></a> [ГВОЗДЕВСОФТ](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=2929645.php) - готовые решения под разные тематики сайтов.
+- #### <a name="nextype"></a> [Некстайп](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=522052.php)
     - <a name="nextype.alpha"></a> Наименование: [Некстайп: Альфа — интернет-магазин](http://marketplace.1c-bitrix.ru/solutions/nextype.alpha/)  
     Демо сайт: [alpha.nextype-demo.ru](http://alpha.nextype-demo.ru/)  
     Описание: «Некстайп: Альфа» — готовое решение для быстрого старта. На нём в короткие сроки можно запустить свой интернет-магазин. Дизайн акцентирует внимание на товаре, а интерфейс не перегружает пользователя. «Альфа» идеально отображается на всех устройствах и отлично сделана внутри.

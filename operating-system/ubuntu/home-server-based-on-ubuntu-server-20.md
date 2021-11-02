@@ -16,7 +16,7 @@
 - [Установка Webmin](#installing-webmin)
 - [Источники](#sources)
 
-## <a name="creating-an-installation-flash-drive"></a> Создание установочной флешки [&uarr;](#content "Содержание")
+## <a name="creating-an-installation-flash-drive"></a> Создание установочной флешки
 
 Заходим на сайт Ubuntu в раздел "[Загрузки](https://ubuntu.com/download/server)" и качаем последнюю версию Ubuntu Server (на текущий момент это Ubuntu Server 20.04.1 LTS).
 
@@ -30,21 +30,21 @@
 
 После непродолжительной работы программы WinSetupFromUSB, загрузочная флека будет готова.
 
-## <a name="installing-ubuntu-server"></a> Установка Ubuntu Server [&uarr;](#content "Содержание")
+## <a name="installing-ubuntu-server"></a> Установка Ubuntu Server
 
 Перегружаем компьютер и запускаемся с флешки. Загружается установщик Ubuntu Server и далее следуем подсказкам установщика.
 
 > На шаге установки SSH отмечаем галочку установки OpenSSH сервера (Install OpenSSH server).
 
-## <a name="basic-ubuntu-server-setup"></a> Базовая настройка Ubuntu Server [&uarr;](#content "Содержание")
+## <a name="basic-ubuntu-server-setup"></a> Базовая настройка Ubuntu Server
 
 Логинемся в системе под доступами, которые указывали при установке Ubuntu Server.
 
-### <a name="system-update"></a> Обновление системы [&uarr;](#content "Содержание")
+### <a name="system-update"></a> Обновление системы
 
 Для обновления системы можно воспользоваться инструкцией "[Обновление Ubuntu 16/18/20](update-ubuntu-16-18-20.md)".
 
-### <a name="static-ip-address"></a> Статический IP-адрес [&uarr;](#content "Содержание")
+### <a name="static-ip-address"></a> Статический IP-адрес
 
 Теперь компьютеру необходимо присвоить статический IP-адрес для того, чтобы в будущем подключаться к нему удаленно по SSH.
 
@@ -129,7 +129,7 @@ network:
 user@computer:~$ sudo netplan apply
 ```
 
-### <a name="setting-up-an-ssh-server"></a> Настройка SSH-сервера [&uarr;](#content "Содержание")
+### <a name="setting-up-an-ssh-server"></a> Настройка SSH-сервера
 
 Открываем файл конфигурации SSH-сервера:
 
@@ -181,7 +181,7 @@ user@computer:~$ sudo ufw enable
 
 > Не забываем в BIOS выключить предупреждения об ошибках обнаружения таких устройств как клавиатура или мышь.
 
-### <a name="time-setting"></a> Настройка времени [&uarr;](#content "Содержание")
+### <a name="time-setting"></a> Настройка времени
 
 Проверяем часовой пояс (по умолчанию UTC):
 
@@ -209,7 +209,7 @@ user@computer:~$ sudo apt install ntp
 user@computer:~$ sudo systemctl enable ntp
 ```
 
-### <a name="installing-auxiliary-programs"></a> Установка вспомогательных программ [&uarr;](#content "Содержание")
+### <a name="installing-auxiliary-programs"></a> Установка вспомогательных программ
 
 Обновляем список пакетов:
 
@@ -217,13 +217,13 @@ user@computer:~$ sudo systemctl enable ntp
 user@computer:~$ sudo apt update
 ```
 
-#### <a name="installing-midnight-commander"></a> Установка Midnight Commander [&uarr;](#content "Содержание")
+#### <a name="installing-midnight-commander"></a> Установка Midnight Commander
 
 > Midnight Commander - один из файловых менеджеров с текстовым интерфейсом типа Norton Commander для UNIX-подобных операционных систем.
 
 Для установки Midnight Commander можно воспользоваться инструкцией "[Установка Midnight Commander на Ubuntu 16/18/20](installing-midnight-commander-on-ubuntu-16-18-20.md)".
 
-#### <a name="installing-htop"></a> Установка htop [&uarr;](#content "Содержание")
+#### <a name="installing-htop"></a> Установка htop
 
 > htop — компьютерная программа, предназначенная для вывода на терминал списка запущенных процессов и информации о них (монитор процессов).
 
@@ -231,7 +231,7 @@ user@computer:~$ sudo apt update
 user@computer:~$ sudo apt install htop
 ```
 
-## <a name="installing-webmin"></a> Установка Webmin [&uarr;](#content "Содержание")
+## <a name="installing-webmin"></a> Установка Webmin
 
 > Webmin — это программный комплекс, позволяющий администрировать операционную систему через веб-интерфейс, в большинстве случаев, позволяя обойтись без использования командной строки и запоминания системных команд и их параметров. Используя любой браузер, администратор сервера может создавать новые учётные записи пользователей, почтовые ящики, изменять настройки служб и сервисов, например: веб-сервера Apache, DNS. Однако, в некоторых случаях необходимо знание операционной системы и редактирование конфигурационных файлов вручную. Кроме того, не все возможности операционной системы и не все программы можно конфигурировать через интерфейс Webmin, например nginx пока не входит в базовый набор.
 >
@@ -241,7 +241,7 @@ user@computer:~$ sudo apt install htop
 
 Для установки Webmin можно воспользоваться инструкцией "[Установка Webmin на Ubuntu Server 20](installing-webmin-on-ubuntu-server-20.md)".
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [Download Ubuntu Server (ubuntu.com)](https://ubuntu.com/download/server)
 - [Downloads | WinSetupFromUSB (winsetupfromusb.com)](http://www.winsetupfromusb.com/downloads/)

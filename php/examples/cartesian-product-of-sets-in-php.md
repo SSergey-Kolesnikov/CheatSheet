@@ -10,7 +10,7 @@
 - [Библиотека `cartesian-iterator`](#library-cartesian-iterator)
 - [Источники](#sources)
 
-## <a name="php-cartesian-function"></a> PHP Cartesian Function [&uarr;](#content "Содержание")
+## <a name="php-cartesian-function"></a> PHP Cartesian Function
 
 ### Создаем PHP скрипт
 
@@ -225,7 +225,7 @@ Array
 )
 ```
 
-## <a name="library-hoa-math"></a> Библиотека `Hoa\Math` [&uarr;](#content "Содержание")
+## <a name="library-hoa-math"></a> Библиотека `Hoa\Math`
 
 Репозиторий: [hoaproject / Math](https://github.com/hoaproject/Math/).
 
@@ -441,7 +441,7 @@ Array
 )
 ```
 
-## <a name="library-cartesian-iterator"></a> Библиотека `cartesian-iterator` [&uarr;](#content "Содержание")
+## <a name="library-cartesian-iterator"></a> Библиотека `cartesian-iterator`
 
 Репозиторий: [PatchRanger / cartesian-iterator](https://github.com/PatchRanger/cartesian-iterator).
 
@@ -656,7 +656,7 @@ Array
 )
 ```
 
-## <a name="sources"></a> Источники [&uarr;](#content "Содержание")
+## <a name="sources"></a> Источники
 
 - [PHP Cartesian Function (gist.github.com)](https://gist.github.com/jwage/11193216)
 - [hoaproject / Math (github.com)](https://github.com/hoaproject/Math/)

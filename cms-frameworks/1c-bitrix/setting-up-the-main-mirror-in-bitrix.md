@@ -6,7 +6,7 @@
 - [Редирект на https и www](#redirect-to-https-and-www)
 - [Источник](#source)
 
-## Редирект на https и www [&uarr;](#content "Содержание")
+## Редирект на https и www
 
 ### Вариант 1
 
@@ -84,6 +84,6 @@ RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 </IfModule>
 ```
 
-## <a name="source"></a> Источник [&uarr;](#content "Содержание")
+## <a name="source"></a> Источник
 
 - [Правильный редирект в битрикс (el-komp.ru)](https://www.el-komp.ru/pravilnyj-redirekt-v-bitriks.html)

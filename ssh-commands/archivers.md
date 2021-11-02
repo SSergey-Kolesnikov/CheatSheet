@@ -7,9 +7,9 @@
     - [Gzip](#commands_gzip)
     - [Zip](#commands_zip)
 
-## <a name="commands"></a> Команды [&uarr;](#content "Содержание")
+## <a name="commands"></a> Команды
 
-### <a name="commands_gzip"></a> Gzip [&uarr;](#content "Содержание")
+### <a name="commands_gzip"></a> Gzip
 
 #### Архивируем папку
 
@@ -35,7 +35,7 @@ tar -zcvf "<FILE_NAME>.tar.gz" .
 tar -xzvf "<FILE_NAME>"
 ```
 
-### <a name="commands_zip"></a> Zip [&uarr;](#content "Содержание")
+### <a name="commands_zip"></a> Zip
 
 #### Архивируем все внутри текущей папки
 

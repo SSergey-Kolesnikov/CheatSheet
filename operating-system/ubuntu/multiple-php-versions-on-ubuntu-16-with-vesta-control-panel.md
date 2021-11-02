@@ -5,7 +5,8 @@
 
 > Предполагается, что установка PHP 7.4 проходит на чистый сервер с операционной системой Ubuntu 16 и установленной панелью Vesta Control Panel.  
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Установка PHP 7.4](#install-php-7-4)
 - [Настройка Apache](#configure-apache)
@@ -13,7 +14,8 @@
 - [Смена версии PHP для сайта](#php-version-change-for-the-site)
 - [Источники](#sources)
 
-## <a name="install-php-7-4"></a> Установка PHP 7.4
+<a name="install-php-7-4"></a>
+## Установка PHP 7.4
 
 Обновляем список пакетов:
 

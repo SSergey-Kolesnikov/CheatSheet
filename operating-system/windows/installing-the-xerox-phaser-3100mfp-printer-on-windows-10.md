@@ -21,6 +21,7 @@
 
 На этом все, теперь принтер и сканер должны работать в Windows 10.
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [Установка принтера Xerox Phaser 3100MFP на Windows 10 (internet-lab.ru)](https://internet-lab.ru/xerox_phaser_3100mfp_win10)

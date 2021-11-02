@@ -1,7 +1,8 @@
 [&larr;](readme.md "1С-Битрикс") Подборка готовых решений из маркетплейса Битрикса по тематике сайта
 ----------------------------------------------------------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Интернет-магазины](#online-stores)
     - [Общие](#online-stores-general)
@@ -16,7 +17,8 @@
     - [Медицина](#landing-pages-medicine)
     - [С каталогом](#landing-pages-with-catalog)
 
-## <a name="ready-made-solutions"></a> Готовые решения
+<a name="ready-made-solutions"></a>
+## Готовые решения
 
 - #### <a name="online-stores"></a> Интернет-магазины
     - ##### <a name="online-stores-general"></a> Общие

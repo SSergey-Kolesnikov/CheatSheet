@@ -1,7 +1,8 @@
 [&larr;](../readme.md "Операционные системы") Windows
 -----------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Постоянные обрывы соединения в PuTTY через SSH](constant-connection-interruptions-in-putty-over-ssh.md)
 - [Сброс кэша DNS в Chrome и Windows](resetting-the-dns-cache-in-chrome-and-windows.md)

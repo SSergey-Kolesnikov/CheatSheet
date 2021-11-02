@@ -1,7 +1,8 @@
 [&larr;](../readme.md "CMS/Frameworks") 1С-Битрикс
 --------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Авторизация в админ. панели Битрикса без пароля](authorization-in-the-bitrix-administration-panel-without-a-password.md)
 - [Настройка главного зеркала в Битриксе](setting-up-the-main-mirror-in-bitrix.md)

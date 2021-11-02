@@ -1,7 +1,8 @@
 [&larr;](../readme.md "PHP") Примеры
 ------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Декартово произведение множеств в PHP](cartesian-product-of-sets-in-php.md)
 - [Отключение проверки SSL-сертификата в cURL](disable-ssl-certificate-verification-in-curl.md)

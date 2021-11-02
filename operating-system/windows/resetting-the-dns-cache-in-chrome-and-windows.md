@@ -7,6 +7,7 @@
 
 3. Запускаем командную строку Windows (`Win + R` и `cmd`) и вводим команду `ipconfig /flushdns`.
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [Сброс кеша DNS в Google Chrome (d-element.ru)](https://d-element.ru/about/blog/sbros-dns-v-google-chrome/)

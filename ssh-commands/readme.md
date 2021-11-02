@@ -1,7 +1,8 @@
 [&larr;](../readme.md "Шпаргалка") SSH команды
 ----------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Apache](apache.md)
 - [Composer](composer.md)
@@ -18,7 +19,8 @@
 - [Прочие команды](#other-commands)
 - [Источник](#source)
 
-## <a name="other-commands"></a> Прочие команды
+<a name="other-commands"></a>
+## Прочие команды
 
 #### Название ОС
 
@@ -131,7 +133,8 @@ history <NUMBER>
 history -c
 ```
 
-## <a name="source"></a> Источник
+<a name="source"></a>
+## Источник
 
 - [История команд Linux (losst.ru)](https://losst.ru/istoriya-komand-linux)
 - [Выключение Linux из командной строки (losst.ru)](https://losst.ru/vyklyuchenie-linux-iz-komandnoj-stroki)

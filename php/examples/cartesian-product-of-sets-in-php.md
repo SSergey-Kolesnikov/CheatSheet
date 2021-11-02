@@ -3,14 +3,16 @@
 
 > Декартово произведение множеств — множество, элементами которого являются все возможные упорядоченные пары элементов исходных множеств.
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [PHP Cartesian Function](#php-cartesian-function)
 - [Библиотека `Hoa\Math`](#library-hoa-math)
 - [Библиотека `cartesian-iterator`](#library-cartesian-iterator)
 - [Источники](#sources)
 
-## <a name="php-cartesian-function"></a> PHP Cartesian Function
+<a name="php-cartesian-function"></a>
+## PHP Cartesian Function
 
 ### Создаем PHP скрипт
 
@@ -225,7 +227,8 @@ Array
 )
 ```
 
-## <a name="library-hoa-math"></a> Библиотека `Hoa\Math`
+<a name="library-hoa-math"></a>
+## Библиотека `Hoa\Math`
 
 Репозиторий: [hoaproject / Math](https://github.com/hoaproject/Math/).
 
@@ -441,7 +444,8 @@ Array
 )
 ```
 
-## <a name="library-cartesian-iterator"></a> Библиотека `cartesian-iterator`
+<a name="library-cartesian-iterator"></a>
+## Библиотека `cartesian-iterator`
 
 Репозиторий: [PatchRanger / cartesian-iterator](https://github.com/PatchRanger/cartesian-iterator).
 
@@ -656,7 +660,8 @@ Array
 )
 ```
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [PHP Cartesian Function (gist.github.com)](https://gist.github.com/jwage/11193216)
 - [hoaproject / Math (github.com)](https://github.com/hoaproject/Math/)

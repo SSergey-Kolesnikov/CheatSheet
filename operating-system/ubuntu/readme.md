@@ -1,7 +1,8 @@
 [&larr;](../readme.md "Операционные системы") Ubuntu
 ----------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Горячие клавиши для Midnight Commander](keyboard-shortcuts-for-midnight-commander.md)
 - [Домашний сервер на базе Ubuntu Server 20](home-server-based-on-ubuntu-server-20.md)

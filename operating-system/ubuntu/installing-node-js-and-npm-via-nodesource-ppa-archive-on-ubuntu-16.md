@@ -5,7 +5,8 @@
 
 > npm (Node Package Manager) - менеджер пакетов, входящий в состав Node.js.
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Скачиваем архив PPA](#download-the-ppa-nodesource-archive)
 - [Устанавливаем через пакетный менеджер](#install-via-the-package-manager)
@@ -13,7 +14,8 @@
 - [Проверяем версию npm](#checking-the-npm-version)
 - [Источники](#sources)
 
-## <a name="download-the-ppa-nodesource-archive"></a> Скачиваем архив PPA NodeSource
+<a name="download-the-ppa-nodesource-archive"></a>
+## Скачиваем архив PPA NodeSource
 
 Номер последней версии для Node.js можно найти в документации по [NodeSource](https://github.com/nodesource/distributions#debinstall). На текущий момент это версия 17.
 
@@ -32,7 +34,8 @@ user@computer:~$ curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash
 
 ```
 
-## <a name="install-via-the-package-manager"></a> Устанавливаем через пакетный менеджер
+<a name="install-via-the-package-manager"></a>
+## Устанавливаем через пакетный менеджер
 
 ```markdown
 user@computer:~$ sudo apt-get install -y nodejs
@@ -45,21 +48,24 @@ Setting up nodejs (17.0.1-1nodesource1) ...
 
 > Пакет [NodeSource](https://github.com/nodesource/distributions) `nodejs` содержит двоичный код `node` и `npm`, так что не нужно устанавливать `npm` отдельно.
 
-## <a name="checking-the-node-js-version"></a> Проверяем версию Node.js
+<a name="checking-the-node-js-version"></a>
+## Проверяем версию Node.js
 
 ```markdown
 user@computer:~$ node -v
 v17.0.1
 ```
 
-## <a name="checking-the-npm-version"></a> Проверяем версию npm
+<a name="checking-the-npm-version"></a>
+## Проверяем версию npm
 
 ```markdown
 user@computer:~$ npm -v
 8.1.0
 ```
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [NodeSource Node.js Binary Distributions (github.com)](https://github.com/nodesource/distributions)
 - [Установка Node.js в Ubuntu 20.04 (digitalocean.com)](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ru)

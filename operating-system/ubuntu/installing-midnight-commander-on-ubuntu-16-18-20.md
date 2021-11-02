@@ -9,11 +9,13 @@ Midnight Commander - один из файловых менеджеров с те
 - [Установка](#installation)
 - [Источники](#sources)
 
-### <a name="system-update"></a> Обновление системы
+<a name="system-update"></a>
+### Обновление системы
 
 Для обновления системы можно воспользоваться инструкцией "[Обновление Ubuntu 16/18/20](update-ubuntu-16-18-20.md)".
 
-### <a name="installation"></a> Установка
+<a name="installation"></a>
+### Установка
 
 Устанавливаем Midnight Commander:
 

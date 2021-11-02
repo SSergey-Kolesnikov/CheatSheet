@@ -17,6 +17,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 
 После запуска скрипта из браузера, файл `auth.php` удаляется с сервера.
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [Авторизация в админке без пароля (dev.1c-bitrix.ru)](https://dev.1c-bitrix.ru/community/webdev/user/137665/blog/10311/)

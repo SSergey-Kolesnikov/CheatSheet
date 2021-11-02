@@ -1,7 +1,8 @@
 [&larr;](readme.md "1С-Битрикс") Подборка компонентов, модулей из маркетплейса Битрикса
 ---------------------------------------------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [reCAPTCHA](#recaptcha)
 - [Импорт, Экспорт](#import-export)
@@ -9,7 +10,8 @@
 - [Службы доставки](#delivery-service)
 - [Прочее](#other)
 
-## <a name="components-modules"></a> Компоненты, модули
+<a name="components-modules"></a>
+## Компоненты, модули
 
 - #### <a name="recaptcha"></a> reCAPTCHA
     - [Невидимая капча Битрикс | Google reCAPTCHA v3](https://marketplace.1c-bitrix.ru/solutions/redsign.recaptcha3/)  

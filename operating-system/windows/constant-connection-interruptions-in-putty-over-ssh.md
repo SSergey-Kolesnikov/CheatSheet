@@ -5,6 +5,7 @@
 
 ![Sending of null packets to keep session active](../../images/constant-connection-interruptions-in-putty-over-ssh/sending-of-null-packets-to-keep-session-active.jpg)
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [Соединение через SSH постоянно сбрасывается (pc.ru)](https://pc.ru/articles/soedinenie-cherez-ssh-postoyanno-sbrasyvaetsya-obryvaetsya#putty)

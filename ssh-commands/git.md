@@ -1,7 +1,8 @@
 [&larr;](readme.md "SSH команды") Git
 -------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [Команды](#commands)
     - [Настройки](#commands_settings)
@@ -12,9 +13,11 @@
 - [Ситуации](#situations)
 - [Источники](#sources)
 
-## <a name="commands"></a> Команды
+<a name="commands"></a>
+## Команды
 
-### <a name="commands_settings"></a> Настройки
+<a name="commands_settings"></a>
+### Настройки
 
 #### Вывод параметров Git'а
 
@@ -48,7 +51,8 @@ git config --local user.email "<YOUR_EMAIL>"
 git config --local user.name "<YOUR_NAME>"
 ```
 
-### <a name="commands_repositories"></a> Репозитории
+<a name="commands_repositories"></a>
+### Репозитории
 
 #### Создаем пустой локальный Git-репозиторий
 
@@ -82,7 +86,8 @@ git remote add origin <LINK>
 git remote set-url origin <LINK>
 ```
 
-### <a name="commands_branches"></a> Ветки
+<a name="commands_branches"></a>
+### Ветки
 
 #### Создание веток
 
@@ -175,7 +180,8 @@ git push origin --delete <BRANCH_NAME>
 git push origin :<BRANCH_NAME>
 ```
 
-### <a name="commands_commits"></a> Коммиты
+<a name="commands_commits"></a>
+### Коммиты
 
 #### Добавление в индекс
 
@@ -339,7 +345,8 @@ git log --graph --all
 git show <HASH>
 ```
 
-### <a name="commands_other"></a> Прочее
+<a name="commands_other"></a>
+### Прочее
 
 #### Статусы
 
@@ -389,7 +396,8 @@ git fetch -p
 git --version
 ```
 
-## <a name="situations"></a> Ситуации
+<a name="situations"></a>
+## Ситуации
 
 ## Переименование веток (локальная + удаленная)
 - [[Git] Переименование ветки (локально и удаленно) (bulkin.me)](https://bulkin.me/notes/3783)
@@ -469,7 +477,8 @@ Branch master set up to track remote branch master from origin.
 - `<USER>` - имя пользователя на [GitHub](https://github.com/);
 - `<REPOSITORY>` - наименование репозитория на [GitHub](https://github.com/);
 
-## <a name="sources"></a> Источники
+<a name="sources"></a>
+## Источники
 
 - [Git - Book (git-scm.com)](https://git-scm.com/book/ru/v2)
 - [Часто используемые команды Git (bulkin.me)](https://bulkin.me/notes/3298)

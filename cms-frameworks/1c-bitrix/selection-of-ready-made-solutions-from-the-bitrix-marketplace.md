@@ -1,7 +1,8 @@
 [&larr;](readme.md "1С-Битрикс") Подборка готовых решений из маркетплейса Битрикса
 ----------------------------------------------------------------------------------
 
-## <a name="content"></a> Содержание:
+<a name="content"></a>
+## Содержание:
 
 - [ALTOP](#altop)
     - [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](#altop.enext)
@@ -46,7 +47,8 @@
     - [Некстайп: МиниМаркет - лендинг с корзиной и онлайн-оплатой](#nextype.mmarket)
     - [Некстайп: Премиум - лендинг с каталогом товаров и услуг](#nextype.premium)
     
-## <a name="ready-made-solutions"></a> Готовые решения
+<a name="ready-made-solutions"></a>
+## Готовые решения
 
 - #### <a name="altop"></a> [ALTOP](https://marketplace.1c-bitrix.ru/partners/detail.php?ID=241197.php)
     - <a name="altop.enext"></a> Наименование: [ЭЛЕКТРОСИЛА NEXT - Широкоформатный интернет-магазин](https://marketplace.1c-bitrix.ru/solutions/altop.enext/)  

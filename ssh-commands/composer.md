@@ -15,6 +15,16 @@ Composer version 2.0.13 2021-04-27 13:11:08
 ...
 ```
 
+```markdown
+user@computer:~$ composer --version
+Composer version 2.0.13 2021-04-27 13:11:08
+```
+
+```markdown
+user@computer:~$ composer -V
+Composer version 2.0.13 2021-04-27 13:11:08
+```
+
 #### Просмотр списка устаревших библиотек
 
 ```markdown

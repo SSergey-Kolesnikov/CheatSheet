@@ -7,6 +7,7 @@
 - [Авторизация в админ. панели Битрикса без пароля](authorization-in-the-bitrix-administration-panel-without-a-password.md)
 - [Настройка главного зеркала в Битриксе](setting-up-the-main-mirror-in-bitrix.md)
 - [Ошибка "MySQL server has gone away" в Битрикс](error-mysql-server-has-gone-away-in-bitrix.md)
+- [Папки, которые можно исключить при бекапе в Битриксе](folders-that-can-be-excluded-when-backing-up-in-bitrix.md)
 - [Подборка готовых решений из маркетплейса Битрикса](selection-of-ready-made-solutions-from-the-bitrix-marketplace.md)
 - [Подборка готовых решений из маркетплейса Битрикса по тематике сайта](selection-of-ready-made-solutions-from-the-bitrix-marketplace-by-site-theme.md)
 - [Подборка компонентов, модулей из маркетплейса Битрикса](selection-of-components-modules-from-the-bitrix-marketplace.md)

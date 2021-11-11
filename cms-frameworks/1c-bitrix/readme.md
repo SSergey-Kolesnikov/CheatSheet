@@ -11,6 +11,7 @@
 - [Подборка готовых решений из маркетплейса Битрикса](selection-of-ready-made-solutions-from-the-bitrix-marketplace.md)
 - [Подборка готовых решений из маркетплейса Битрикса по тематике сайта](selection-of-ready-made-solutions-from-the-bitrix-marketplace-by-site-theme.md)
 - [Подборка компонентов, модулей из маркетплейса Битрикса](selection-of-components-modules-from-the-bitrix-marketplace.md)
+- [Показ свойства на детальной странице при создании его на API Битрикса](showing-a-property-on-a-detail-page-when-creating-it-on-the-bitrix-api.md)
 - [Редирект с без слеша на слеш](redirect-with-no-slash-to-slash.md)
 - [Редиректы для разделов с использованием пользовательских свойств в Битриксе](redirects-to-sections-using-custom-properties-in-bitrix.md)
 - [Редиректы для элементов с использованием свойств в Битриксе](redirects-to-elements-using-properties-in-bitrix.md)

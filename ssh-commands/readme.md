@@ -40,6 +40,21 @@ shutdown -r now
 shutdown -P now
 ```
 
+#### Список установленных репозиториев в Ubuntu
+
+Список всех репозиториев хранится в файле `/etc/apt/sources.list`.
+
+```markdon
+user@computer:~$ sudo grep -rhE ^deb /etc/apt/sources.list*
+deb http://mirror.selectel.ru/ubuntu xenial main restricted
+deb http://mirror.selectel.ru/ubuntu xenial-updates main restricted
+deb http://mirror.selectel.ru/ubuntu xenial universe
+...
+deb http://security.ubuntu.com/ubuntu xenial-security main restricted
+deb http://security.ubuntu.com/ubuntu xenial-security universe
+deb http://security.ubuntu.com/ubuntu xenial-security multiverse
+```
+
 #### Локальный IP адрес
 
 ```markdown
@@ -138,3 +153,4 @@ history -c
 
 - [История команд Linux (losst.ru)](https://losst.ru/istoriya-komand-linux)
 - [Выключение Linux из командной строки (losst.ru)](https://losst.ru/vyklyuchenie-linux-iz-komandnoj-stroki)
+- [Как вывести список установленных репозиториев в Ubuntu и Debian (itisgood.ru)](https://itisgood.ru/2020/10/05/kak-vyvesti-spisok-ustanovlennyh-repozitoriev-v-ubuntu-i-debian/)

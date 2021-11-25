@@ -109,7 +109,7 @@
 <a name="fortify-provider-update"></a>
 ## Обновление провайдера Fortify
 
-Для Fortify необходимо указать, где именно находятся шаблоны аутентификации. В файле `/app/Providers/FortifyServiceProvider` необходимо обновить метод `boot`, дописываем в конец метода:
+Для Fortify необходимо указать, где именно находятся шаблоны регистрации. В файле `/app/Providers/FortifyServiceProvider` необходимо обновить метод `boot`, дописываем в конец метода:
 
 ```php
     public function boot()

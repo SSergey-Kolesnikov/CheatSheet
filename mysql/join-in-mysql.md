@@ -260,6 +260,12 @@ course_id | course_name | university_id | university_name | students_count
 ## Дамп базы данных
 
 ```sql
+-- Отключение ограничения по внешнему ключу
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- --------------------------------------------------------
+
 --
 -- Структура таблицы `universities`
 --
@@ -354,6 +360,7 @@ DROP TABLE IF EXISTS `student_course`;
 CREATE TABLE IF NOT EXISTS `student_course` (
   `student_id` bigint(20) UNSIGNED DEFAULT NULL,
   `course_id` bigint(20) UNSIGNED DEFAULT NULL,
+  UNIQUE KEY (`student_id`,`course_id`),
   KEY `student_course_student_id_foreign` (`student_id`),
   KEY `student_course_course_id_foreign` (`course_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -397,6 +404,12 @@ ALTER TABLE `courses`
 ALTER TABLE `student_course`
   ADD CONSTRAINT `student_course_student_id_foreign` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `student_course_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- --------------------------------------------------------
+
+-- Включение ограничения по внешнему ключу
+
+SET FOREIGN_KEY_CHECKS=1;
 ```
 
 <a name="sources"></a>

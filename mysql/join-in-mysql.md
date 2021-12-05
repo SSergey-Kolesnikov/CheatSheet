@@ -12,6 +12,8 @@
 - [INNER JOIN](#inner-join)
     - [Список университетов и их курсов](#list-of-universities-and-their-courses)
     - [Список студентов с их привязкой к университетам и курсам](#list-of-students-with-their-reference-to-universities-and-courses)
+    - [Список самых популярных университетов](#list-of-the-most-popular-universities)
+    - [Список самых популярных курсов у университетов](#list-of-the-most-popular-courses-at-universities)
 - [Дамп базы данных](#database-dump)
 - [Источники](#sources)
 
@@ -177,6 +179,82 @@ student_id | student_name | university_id | university_name | course_id | course
 4 | Даша | 1 | МГУ | 4 | Искусство разработки на современном C++
 4 | Даша | 1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
 5 | Петя | 3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
+
+<a name="list-of-the-most-popular-universities"></a>
+### Список самых популярных университетов 
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  COUNT(`students`.`id`) AS `students_count`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+INNER JOIN
+  `student_course` ON `courses`.`id` = `student_course`.`course_id`
+INNER JOIN
+  `students` ON `students`.`id` = `student_course`.`student_id`
+GROUP BY
+  `universities`.`id`
+ORDER BY
+  `students_count` DESC,
+  `universities`.`id` ASC
+```
+
+#### Результат
+
+university_id | university_name | students_count
+:---: | --- | :---:
+1 | МГУ | 10
+3 | МИФИ | 4
+2 | МФТИ | 1
+
+
+<a name="list-of-the-most-popular-courses-at-universities"></a>
+### Список самых популярных курсов у университетов 
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `courses`.`id` AS `course_id`,
+  `courses`.`name` AS `course_name`,
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  COUNT(`students`.`id`) AS `students_count`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+INNER JOIN
+  `student_course` ON `courses`.`id` = `student_course`.`course_id`
+INNER JOIN
+  `students` ON `students`.`id` = `student_course`.`student_id`
+GROUP BY
+  `courses`.`id`
+ORDER BY
+  `students_count` DESC,
+  `universities`.`id` ASC,
+  `courses`.`id` ASC
+```
+
+#### Результат
+
+course_id | course_name | university_id | university_name | students_count
+:---: | --- | :---: | --- | :---:
+4 | Искусство разработки на современном C++ | 1 | МГУ | 3
+2 | Управление инфраструктурой и развертывание облачных сервисов | 1 | МГУ | 2
+3 | Технология Блокчейн | 1 | МГУ | 2
+5 | Разработка интерфейсов: вёрстка и JavaScript | 1 | МГУ | 2
+8 | Антикризисная разработка корпоративных информационных систем | 3 | МИФИ | 2
+1 | Основы сетевой безопасности | 1 | МГУ | 1
+6 | iOS-разработка: Swift, UI и многопоточность | 2 | МФТИ | 1
+7 | Криптографические методы защиты информации | 3 | МИФИ | 1
+9 | Человеческий фактор в разработке корпоративных систем | 3 | МИФИ | 1
 
 <a name="database-dump"></a>
 ## Дамп базы данных

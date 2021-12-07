@@ -259,6 +259,9 @@ course_id | course_name | university_id | university_name | students_count
 <a name="database-dump"></a>
 ## Дамп базы данных
 
+<details>
+<summary>___Дамп базы данных___</summary>
+
 ```sql
 -- Отключение ограничения по внешнему ключу
 
@@ -411,6 +414,7 @@ ALTER TABLE `student_course`
 
 SET FOREIGN_KEY_CHECKS=1;
 ```
+</details>
 
 <a name="sources"></a>
 ## Источники

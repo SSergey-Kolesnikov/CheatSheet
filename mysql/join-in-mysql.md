@@ -260,7 +260,7 @@ course_id | course_name | university_id | university_name | students_count
 ## Дамп базы данных
 
 <details>
-<summary>___Дамп базы данных___</summary>
+<summary><i>Дамп базы данных</i></summary>
 
 ```sql
 -- Отключение ограничения по внешнему ключу

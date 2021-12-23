@@ -9,12 +9,12 @@
     - [Таблица `courses`](#table-courses)
     - [Таблица `students`](#table-students)
     - [Таблица `student_course`](#table-student-course)
-- [INNER JOIN](#inner-join)
-    - [Список университетов и их курсов](#list-of-universities-and-their-courses)
-    - [Список студентов с их привязкой к университетам и курсам](#list-of-students-with-their-reference-to-universities-and-courses)
-    - [Список самых популярных университетов](#list-of-the-most-popular-universities)
-    - [Список самых популярных курсов у университетов](#list-of-the-most-popular-courses-at-universities)
-- [Дамп базы данных](#database-dump)
+    - [Дамп базы данных](#database-dump)
+- [Примеры](#examples)
+    - [Список университетов и их курсов (INNER JOIN)](#example-1)
+    - [Список студентов с их привязкой к университетам и курсам (INNER JOIN)](#example-2)
+    - [Список самых популярных университетов (INNER JOIN)](#example-3)
+    - [Список самых популярных курсов у университетов (INNER JOIN)](#example-4)
 - [Источники](#sources)
 
 <a name="structure-of-tables"></a>
@@ -86,178 +86,8 @@ student_id | course_id
 4 | 5
 5 | 8
 
-<a name="inner-join"></a>
-## INNER JOIN
-
-По умолчанию, если не указаны какие-либо параметры, JOIN выполняется как INNER JOIN, то есть как внутреннее (перекрёстное) соединение таблиц.
-
-> Внутреннее соединение — соединение двух таблиц, при котором каждая запись из первой таблицы соединяется с каждой записью второй таблицы, создавая тем самым все возможные комбинации записей обеих таблиц (декартово произведение).
-
-<a name="list-of-universities-and-their-courses"></a>
-### Список университетов и их курсов
-
-#### SQL-запрос
-
-```sql
-SELECT
-  `universities`.`id` AS `university_id`,
-  `universities`.`name` AS `university_name`,
-  `courses`.`id` AS `course_id`,
-  `courses`.`name` AS `course_name`
-FROM
-  `universities`
-INNER JOIN
-  `courses` ON `universities`.`id` = `courses`.`university_id`
-ORDER BY
-  `universities`.`id` ASC,
-  `courses`.`id` ASC
-```
-
-#### Результат
-
-university_id | university_name | course_id | course_name
-:---: | --- | :---: | ---
-1 | МГУ | 1 | Основы сетевой безопасности
-1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
-1 | МГУ | 3 | Технология Блокчейн
-1 | МГУ | 4 | Искусство разработки на современном C++
-1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
-2 | МФТИ | 6 | iOS-разработка: Swift, UI и многопоточность
-3 | МИФИ | 7 | Криптографические методы защиты информации
-3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
-3 | МИФИ | 9 | Человеческий фактор в разработке корпоративных систем
-4 | ВШЭ | 10 | Алгоритмизация и программирование
-4 | ВШЭ | 11 | Беспроводные коммуникационные системы
-5 | МГИМО | 12 | Введение в системы беспроводной связи
-5 | МГИМО | 13 | Цифровые технологии в международных финансах. Практикум
-5 | МГИМО | 14 | Платежные системы в цифровой экономике
-5 | МГИМО | 15 | Международные и национальные рейтинговые агентства
-
-<a name="list-of-students-with-their-reference-to-universities-and-courses"></a>
-### Список студентов с их привязкой к университетам и курсам 
-
-#### SQL-запрос
-
-```sql
-SELECT
-  `students`.`id` AS `student_id`,
-  `students`.`name` AS `student_name`,
-  `universities`.`id` AS `university_id`,
-  `universities`.`name` AS `university_name`,
-  `courses`.`id` AS `course_id`,
-  `courses`.`name` AS `course_name`
-FROM
-  `universities`
-INNER JOIN
-  `courses` ON `universities`.`id` = `courses`.`university_id`
-INNER JOIN
-  `student_course` ON `courses`.`id` = `student_course`.`course_id`
-INNER JOIN
-  `students` ON `students`.`id` = `student_course`.`student_id`
-ORDER BY
-  `students`.`id` ASC,
-  `universities`.`id` ASC,
-  `courses`.`id` ASC
-```
-
-#### Результат
-
-student_id | student_name | university_id | university_name | course_id | course_name
-:---: | --- | :---: | --- | :---: | ---
-1 | Никита | 1 | МГУ | 1 | Основы сетевой безопасности
-1 | Никита | 1 | МГУ | 3 | Технология Блокчейн
-1 | Никита | 1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
-1 | Никита | 3 | МИФИ | 7 | Криптографические методы защиты информации
-1 | Никита | 3 | МИФИ | 9 | Человеческий фактор в разработке корпоративных систем
-2 | Маша | 1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
-2 | Маша | 1 | МГУ | 4 | Искусство разработки на современном C++
-2 | Маша | 2 | МФТИ | 6 | iOS-разработка: Swift, UI и многопоточность
-2 | Маша | 3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
-3 | Ваня | 1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
-3 | Ваня | 1 | МГУ | 3 | Технология Блокчейн
-3 | Ваня | 1 | МГУ | 4 | Искусство разработки на современном C++
-4 | Даша | 1 | МГУ | 4 | Искусство разработки на современном C++
-4 | Даша | 1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
-5 | Петя | 3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
-
-<a name="list-of-the-most-popular-universities"></a>
-### Список самых популярных университетов 
-
-#### SQL-запрос
-
-```sql
-SELECT
-  `universities`.`id` AS `university_id`,
-  `universities`.`name` AS `university_name`,
-  COUNT(`students`.`id`) AS `students_count`
-FROM
-  `universities`
-INNER JOIN
-  `courses` ON `universities`.`id` = `courses`.`university_id`
-INNER JOIN
-  `student_course` ON `courses`.`id` = `student_course`.`course_id`
-INNER JOIN
-  `students` ON `students`.`id` = `student_course`.`student_id`
-GROUP BY
-  `universities`.`id`
-ORDER BY
-  `students_count` DESC,
-  `universities`.`id` ASC
-```
-
-#### Результат
-
-university_id | university_name | students_count
-:---: | --- | :---:
-1 | МГУ | 10
-3 | МИФИ | 4
-2 | МФТИ | 1
-
-
-<a name="list-of-the-most-popular-courses-at-universities"></a>
-### Список самых популярных курсов у университетов 
-
-#### SQL-запрос
-
-```sql
-SELECT
-  `courses`.`id` AS `course_id`,
-  `courses`.`name` AS `course_name`,
-  `universities`.`id` AS `university_id`,
-  `universities`.`name` AS `university_name`,
-  COUNT(`students`.`id`) AS `students_count`
-FROM
-  `universities`
-INNER JOIN
-  `courses` ON `universities`.`id` = `courses`.`university_id`
-INNER JOIN
-  `student_course` ON `courses`.`id` = `student_course`.`course_id`
-INNER JOIN
-  `students` ON `students`.`id` = `student_course`.`student_id`
-GROUP BY
-  `courses`.`id`
-ORDER BY
-  `students_count` DESC,
-  `universities`.`id` ASC,
-  `courses`.`id` ASC
-```
-
-#### Результат
-
-course_id | course_name | university_id | university_name | students_count
-:---: | --- | :---: | --- | :---:
-4 | Искусство разработки на современном C++ | 1 | МГУ | 3
-2 | Управление инфраструктурой и развертывание облачных сервисов | 1 | МГУ | 2
-3 | Технология Блокчейн | 1 | МГУ | 2
-5 | Разработка интерфейсов: вёрстка и JavaScript | 1 | МГУ | 2
-8 | Антикризисная разработка корпоративных информационных систем | 3 | МИФИ | 2
-1 | Основы сетевой безопасности | 1 | МГУ | 1
-6 | iOS-разработка: Swift, UI и многопоточность | 2 | МФТИ | 1
-7 | Криптографические методы защиты информации | 3 | МИФИ | 1
-9 | Человеческий фактор в разработке корпоративных систем | 3 | МИФИ | 1
-
 <a name="database-dump"></a>
-## Дамп базы данных
+### Дамп базы данных
 
 <details>
 <summary><i>Дамп базы данных</i></summary>
@@ -415,6 +245,172 @@ ALTER TABLE `student_course`
 SET FOREIGN_KEY_CHECKS=1;
 ```
 </details>
+
+<a name="examples"></a>
+## Примеры
+
+<a name="example-1"></a>
+### Список университетов и их курсов (INNER JOIN)
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  `courses`.`id` AS `course_id`,
+  `courses`.`name` AS `course_name`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+ORDER BY
+  `universities`.`id` ASC,
+  `courses`.`id` ASC
+```
+
+#### Результат
+
+university_id | university_name | course_id | course_name
+:---: | --- | :---: | ---
+1 | МГУ | 1 | Основы сетевой безопасности
+1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
+1 | МГУ | 3 | Технология Блокчейн
+1 | МГУ | 4 | Искусство разработки на современном C++
+1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
+2 | МФТИ | 6 | iOS-разработка: Swift, UI и многопоточность
+3 | МИФИ | 7 | Криптографические методы защиты информации
+3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
+3 | МИФИ | 9 | Человеческий фактор в разработке корпоративных систем
+4 | ВШЭ | 10 | Алгоритмизация и программирование
+4 | ВШЭ | 11 | Беспроводные коммуникационные системы
+5 | МГИМО | 12 | Введение в системы беспроводной связи
+5 | МГИМО | 13 | Цифровые технологии в международных финансах. Практикум
+5 | МГИМО | 14 | Платежные системы в цифровой экономике
+5 | МГИМО | 15 | Международные и национальные рейтинговые агентства
+
+<a name="example-2"></a>
+### Список студентов с их привязкой к университетам и курсам (INNER JOIN)
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `students`.`id` AS `student_id`,
+  `students`.`name` AS `student_name`,
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  `courses`.`id` AS `course_id`,
+  `courses`.`name` AS `course_name`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+INNER JOIN
+  `student_course` ON `courses`.`id` = `student_course`.`course_id`
+INNER JOIN
+  `students` ON `students`.`id` = `student_course`.`student_id`
+ORDER BY
+  `students`.`id` ASC,
+  `universities`.`id` ASC,
+  `courses`.`id` ASC
+```
+
+#### Результат
+
+student_id | student_name | university_id | university_name | course_id | course_name
+:---: | --- | :---: | --- | :---: | ---
+1 | Никита | 1 | МГУ | 1 | Основы сетевой безопасности
+1 | Никита | 1 | МГУ | 3 | Технология Блокчейн
+1 | Никита | 1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
+1 | Никита | 3 | МИФИ | 7 | Криптографические методы защиты информации
+1 | Никита | 3 | МИФИ | 9 | Человеческий фактор в разработке корпоративных систем
+2 | Маша | 1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
+2 | Маша | 1 | МГУ | 4 | Искусство разработки на современном C++
+2 | Маша | 2 | МФТИ | 6 | iOS-разработка: Swift, UI и многопоточность
+2 | Маша | 3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
+3 | Ваня | 1 | МГУ | 2 | Управление инфраструктурой и развертывание облачных сервисов
+3 | Ваня | 1 | МГУ | 3 | Технология Блокчейн
+3 | Ваня | 1 | МГУ | 4 | Искусство разработки на современном C++
+4 | Даша | 1 | МГУ | 4 | Искусство разработки на современном C++
+4 | Даша | 1 | МГУ | 5 | Разработка интерфейсов: вёрстка и JavaScript
+5 | Петя | 3 | МИФИ | 8 | Антикризисная разработка корпоративных информационных систем
+
+<a name="example-3"></a>
+### Список самых популярных университетов (INNER JOIN)
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  COUNT(`students`.`id`) AS `students_count`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+INNER JOIN
+  `student_course` ON `courses`.`id` = `student_course`.`course_id`
+INNER JOIN
+  `students` ON `students`.`id` = `student_course`.`student_id`
+GROUP BY
+  `universities`.`id`
+ORDER BY
+  `students_count` DESC,
+  `universities`.`id` ASC
+```
+
+#### Результат
+
+university_id | university_name | students_count
+:---: | --- | :---:
+1 | МГУ | 10
+3 | МИФИ | 4
+2 | МФТИ | 1
+
+
+<a name="example-4"></a>
+### Список самых популярных курсов у университетов (INNER JOIN)
+
+#### SQL-запрос
+
+```sql
+SELECT
+  `courses`.`id` AS `course_id`,
+  `courses`.`name` AS `course_name`,
+  `universities`.`id` AS `university_id`,
+  `universities`.`name` AS `university_name`,
+  COUNT(`students`.`id`) AS `students_count`
+FROM
+  `universities`
+INNER JOIN
+  `courses` ON `universities`.`id` = `courses`.`university_id`
+INNER JOIN
+  `student_course` ON `courses`.`id` = `student_course`.`course_id`
+INNER JOIN
+  `students` ON `students`.`id` = `student_course`.`student_id`
+GROUP BY
+  `courses`.`id`
+ORDER BY
+  `students_count` DESC,
+  `universities`.`id` ASC,
+  `courses`.`id` ASC
+```
+
+#### Результат
+
+course_id | course_name | university_id | university_name | students_count
+:---: | --- | :---: | --- | :---:
+4 | Искусство разработки на современном C++ | 1 | МГУ | 3
+2 | Управление инфраструктурой и развертывание облачных сервисов | 1 | МГУ | 2
+3 | Технология Блокчейн | 1 | МГУ | 2
+5 | Разработка интерфейсов: вёрстка и JavaScript | 1 | МГУ | 2
+8 | Антикризисная разработка корпоративных информационных систем | 3 | МИФИ | 2
+1 | Основы сетевой безопасности | 1 | МГУ | 1
+6 | iOS-разработка: Swift, UI и многопоточность | 2 | МФТИ | 1
+7 | Криптографические методы защиты информации | 3 | МИФИ | 1
+9 | Человеческий фактор в разработке корпоративных систем | 3 | МИФИ | 1
 
 <a name="sources"></a>
 ## Источники

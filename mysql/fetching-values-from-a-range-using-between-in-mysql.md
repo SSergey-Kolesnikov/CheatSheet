@@ -7,9 +7,9 @@
 - [Синтаксис](#syntax)
 - [Структура таблиц](#structure-of-tables)
     - [Таблица `products`](#table-products)
+    - [Дамп базы данных](#database-dump)
 - [Примеры](#examples)
     - [Получить товары с ценой больше или равно 25 рублей и меньше или равно 75 рублей](#example-1)
-- [Дамп базы данных](#database-dump)
 - [Источники](#sources)
 
 <a name="syntax"></a>
@@ -38,33 +38,8 @@ id | name | price
 4 | Товар 4 | 26.65
 5 | Товар 5 | 35.27
 
-<a name="examples"></a>
-## Примеры
-
-<a name="example-1"></a>
-### Получить товары с ценой больше или равно 25 рублей и меньше или равно 75 рублей
-
-#### SQL-запрос
-
-```mysql
-SELECT
-  *
-FROM
-  `products`
-WHERE
-  `price` BETWEEN 25 AND 75
-```
-
-#### Результат
-
-id | name | price
-:---: | --- | :---:
-2 | Товар 2 | 68.42
-4 | Товар 4 | 26.65
-5 | Товар 5 | 35.27
-
 <a name="database-dump"></a>
-## Дамп базы данных
+### Дамп базы данных
 
 <details>
 <summary><i>Дамп базы данных</i></summary>
@@ -95,6 +70,31 @@ INSERT INTO `products` (`id`, `name`, `price`) VALUES
 (5, 'Товар 5', '35.27');
 ```
 </details>
+
+<a name="examples"></a>
+## Примеры
+
+<a name="example-1"></a>
+### Получить товары с ценой больше или равно 25 рублей и меньше или равно 75 рублей
+
+#### SQL-запрос
+
+```mysql
+SELECT
+  *
+FROM
+  `products`
+WHERE
+  `price` BETWEEN 25 AND 75
+```
+
+#### Результат
+
+id | name | price
+:---: | --- | :---:
+2 | Товар 2 | 68.42
+4 | Товар 4 | 26.65
+5 | Товар 5 | 35.27
 
 <a name="sources"></a>
 ## Источники

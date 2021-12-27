@@ -4,6 +4,7 @@
 ## <a name="content"></a> Содержание:
 
 - [Авторизация через Laravel Fortify](laravel-fortify-authorization.md)
+- [Изменение маршрутов в Laravel Fortify](сhanging-routes-in-laravel-fortify.md)
 - [Кастомные атрибуты валидации через класс запроса формы в Laravel 8](custom-validation-attributes-via-form-request-class-in-laravel-8.md)
 - [Настройка Laravel Fortify](setting-up-laravel-fortify.md)
 - [Обновление Laravel в рамках мажорной версии](laravel-update-in-the-framework-of-the-major-version.md)

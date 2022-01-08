@@ -9,5 +9,6 @@
 - [Настройка Laravel Fortify](setting-up-laravel-fortify.md)
 - [Обновление Laravel в рамках мажорной версии](laravel-update-in-the-framework-of-the-major-version.md)
 - [Ошибка webpack `digital envelope routines::unsupported` при установке Jetstream на Node.js 17](webpack-error-digital-envelope-routines-unsupported-when-installing-jetstream-on-node-js-17.md)
+- [Правила валидации пароля в Laravel Fortify](laravel-fortify-password-validation-rules.md)
 - [Регистрация через Laravel Fortify](registration-on-the-laravel-fortify.md)
 - [Установка Laravel Fortify](installing-laravel-fortify.md)

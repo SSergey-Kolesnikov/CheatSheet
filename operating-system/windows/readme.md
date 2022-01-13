@@ -4,6 +4,7 @@
 <a name="content"></a>
 ## Содержание:
 
+- [Отмена последнего коммита в PhpStorm](canceling-the-last-commit-in-phpstorm.md)
 - [Подключение к удаленному серверу по SSH с использованием ключа через PuTTY](connecting-to-a-remote-server-via-ssh-using-a-key-via-putty.md)
 - [Постоянные обрывы соединения в PuTTY через SSH](constant-connection-interruptions-in-putty-over-ssh.md)
 - [Сброс кэша DNS в Chrome и Windows](resetting-the-dns-cache-in-chrome-and-windows.md)

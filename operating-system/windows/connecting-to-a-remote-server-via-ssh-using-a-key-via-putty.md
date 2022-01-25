@@ -4,7 +4,7 @@
 <a name="content"></a>
 ## Содержание
 
-- [Заключение](#generating-keys)
+- [Генерация ключей](#generating-keys)
 - [Размещение ключа на сервере](#placing-the-key-on-the-server)
 - [Настройка PuTTY](#setting-up-putty)
 - [Заключение](#conclusion)

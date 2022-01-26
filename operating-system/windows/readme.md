@@ -6,6 +6,7 @@
 
 - [Настройка связки OpenServer + Xdebug + PhpStorm](configuring-openserver-xdebug-phpstorm.md)
 - [Отмена последнего коммита в PhpStorm](canceling-the-last-commit-in-phpstorm.md)
+- [Ошибка "Certificate used to sign the license is not signed JetBrains root certificate" при активации PhpStorm 2020.1](certificate-used-to-sign-the-license-is-not-signed-jetbrains-root-certificate-error-when-activating-phpstorm-2020-1.md)
 - [Подключение к удаленному серверу по SSH с использованием ключа через PuTTY](connecting-to-a-remote-server-via-ssh-using-a-key-via-putty.md)
 - [Постоянные обрывы соединения в PuTTY через SSH](constant-connection-interruptions-in-putty-over-ssh.md)
 - [Сброс кэша DNS в Chrome и Windows](resetting-the-dns-cache-in-chrome-and-windows.md)

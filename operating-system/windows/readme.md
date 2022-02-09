@@ -5,6 +5,7 @@
 ## Содержание:
 
 - [Импорт заархивированной через Gzip БД в MySQL из командной строки Windows](importing-a-gzip-database-into-mysql-from-the-windows-command-line.md)
+- [Консольные команды Windows](windows-console-commands.md)
 - [Настройка связки OpenServer + Xdebug + PhpStorm](configuring-openserver-xdebug-phpstorm.md)
 - [Отмена последнего коммита в PhpStorm](canceling-the-last-commit-in-phpstorm.md)
 - [Ошибка "Certificate used to sign the license is not signed JetBrains root certificate" при активации PhpStorm 2020.1](certificate-used-to-sign-the-license-is-not-signed-jetbrains-root-certificate-error-when-activating-phpstorm-2020-1.md)

@@ -9,4 +9,5 @@
 - [Получение идентификаторов дочерних категорий](gets-all-of-the-childs-category-ids.md)
 - [Получение идентификаторов родительских категорий](gets-all-of-the-parents-category-ids.md)
 - [Преобразование секунд в секунды/минуты/часы](convert-seconds-to-seconds-minutes-hours.md)
+- [Проверка работы Memcached](verifying-that-memcached-is-working.md)
 - [Удаление старых файлов из папки](delete-old-files-from-a-folder.md)

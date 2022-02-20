@@ -13,6 +13,7 @@
 - [Обновление Composer до 2-й версии](composer-upgrade-to-version-2.md)
 - [Обновление Ubuntu 16/18/20](update-ubuntu-16-18-20.md)
 - [Подготовка сервера на Ubuntu 16 c Vesta Control Panel под установку 1С-Битрикс](preparing-a-server-on-ubuntu-16-with-vesta-control-panel-for-installing-1c-bitrix.md)
+- [Приложения для Ubuntu](applications-for-ubuntu.md)
 - [Скачиваем сайт целиком с помощью Wget под Ubuntu 16](downloading-the-entire-site-using-wget-under-ubuntu-16.md)
 - [Установка Composer на Ubuntu 16](install-composer-on-ubuntu-16.md)
 - [Установка Laravel на Ubuntu 16 c Vesta Control Panel](install-laravel-on-ubuntu-16-with-vesta-control-panel.md)

@@ -12,6 +12,7 @@
 - [Несколько версий PHP на Ubuntu 16 c Vesta Control Panel](multiple-php-versions-on-ubuntu-16-with-vesta-control-panel.md)
 - [Обновление Composer до 2-й версии](composer-upgrade-to-version-2.md)
 - [Обновление Ubuntu 16/18/20](update-ubuntu-16-18-20.md)
+- [Переключение на Composer v1.x](switching-to-composer-v1-x.md)
 - [Подготовка сервера на Ubuntu 16 c Vesta Control Panel под установку 1С-Битрикс](preparing-a-server-on-ubuntu-16-with-vesta-control-panel-for-installing-1c-bitrix.md)
 - [Приложения для Ubuntu](applications-for-ubuntu.md)
 - [Скачиваем сайт целиком с помощью Wget под Ubuntu 16](downloading-the-entire-site-using-wget-under-ubuntu-16.md)

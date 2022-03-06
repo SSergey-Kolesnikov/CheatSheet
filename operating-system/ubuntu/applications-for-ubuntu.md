@@ -18,6 +18,7 @@
   - [Composer](#composer)
   - [DBeaver](#dbeaver)
   - [Git](#git)
+  - [Insomnia](#insomnia)
   - [PhpStorm](#phpstorm)
   - [Sublime Text](#sublime-text)
   - [TablePlus](#tableplus)
@@ -151,6 +152,14 @@ user@computer:~$ sudo add-apt-repository ppa:git-core/ppa
 ```markdown
 user@computer:~$ sudo apt update; sudo apt install git
 ```
+
+<a name="insomnia"></a>
+### Insomnia
+
+>  Клиент API и инструмент проектирования.
+
+Сайт: [insomnia.rest/products/insomnia](https://insomnia.rest/products/insomnia)   
+Скачать: [insomnia.rest/download](https://insomnia.rest/download)
 
 <a name="phpstorm"></a>
 ### PhpStorm

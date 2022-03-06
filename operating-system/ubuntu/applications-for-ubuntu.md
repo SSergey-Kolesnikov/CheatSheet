@@ -7,9 +7,10 @@
 - [Браузеры](#browsers)
   - [Google Chrome](#google-chrome)
   - [Mozilla Firefox](#mozilla-firefox)
-- [Мессенджеры](#messengers)
+- [Связь](#communications)
   - [Skype](#skype)
   - [Telegram](#telegram)
+  - [Zoom](#zoom)
 - [Утилиты](#utilities)
   - [CopyQ](#copyq)
   - [Gnome Tweak Tool](#gnome-tweak-tool)
@@ -36,8 +37,8 @@
 Сайт: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)   
 Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)
 
-<a name="messengers"></a>
-## Мессенджеры
+<a name="communications"></a>
+## Связь
 
 <a name="skype"></a>
 ### Skype
@@ -50,6 +51,14 @@
 
 Сайт: [telegram.org](https://telegram.org/)  
 Скачать: [desktop.telegram.org](https://desktop.telegram.org/)
+
+<a name="zoom"></a>
+### Zoom
+
+> Проприетарная программа для организации видеоконференций. Она предоставляет сервис видеотелефонии, который позволяет подключать одновременно до 100 устройств бесплатно, с 40-минутным ограничением для бесплатных аккаунтов. Пользователи имеют возможность повысить уровень обслуживания, используя один из тарифных планов, с максимальным числом подключений до 500 человек одновременно, без ограничений по времени.
+
+Сайт: [zoom.us](https://zoom.us/)  
+Скачать: [zoom.us/download](https://zoom.us/download#client_4meeting)
 
 <a name="utilities"></a>
 ## Утилиты

@@ -7,11 +7,12 @@
 - [Браузеры](#browsers)
   - [Google Chrome](#google-chrome)
   - [Mozilla Firefox](#mozilla-firefox)
-- [Мессенджеры](#messengers)
-  - [Skype](#skype)
-  - [Telegram](#telegram)
 - [Музыка](#music)
   - [Яндекс.Музыка](#yandex-music)
+- [Связь](#communications)
+  - [Skype](#skype)
+  - [Telegram](#telegram)
+  - [Zoom](#zoom)
 - [Утилиты](#utilities)
   - [Ditto](#ditto)
 - [Web](#web)
@@ -42,8 +43,17 @@
 Сайт: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)   
 Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)
 
-<a name="messengers"></a>
-## Мессенджеры
+<a name="music"></a>
+## Музыка
+
+<a name="yandex-music"></a>
+### Яндекс.Музыка
+
+Сайт: [music.yandex.ru](https://music.yandex.ru/)  
+Скачать: [music.yandex.ru/apps](https://music.yandex.ru/apps), [microsoft.com](https://www.microsoft.com/ru-ru/p/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/9nblggh0cb6d)
+
+<a name="communications"></a>
+## Связь
 
 <a name="skype"></a>
 ### Skype
@@ -57,14 +67,13 @@
 Сайт: [telegram.org](https://telegram.org/)  
 Скачать: [desktop.telegram.org](https://desktop.telegram.org/)
 
-<a name="music"></a>
-## Музыка
+<a name="zoom"></a>
+### Zoom
 
-<a name="yandex-music"></a>
-### Яндекс.Музыка
+> Проприетарная программа для организации видеоконференций. Она предоставляет сервис видеотелефонии, который позволяет подключать одновременно до 100 устройств бесплатно, с 40-минутным ограничением для бесплатных аккаунтов. Пользователи имеют возможность повысить уровень обслуживания, используя один из тарифных планов, с максимальным числом подключений до 500 человек одновременно, без ограничений по времени.
 
-Сайт: [music.yandex.ru](https://music.yandex.ru/)  
-Скачать: [music.yandex.ru/apps](https://music.yandex.ru/apps), [microsoft.com](https://www.microsoft.com/ru-ru/p/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/9nblggh0cb6d)
+Сайт: [zoom.us](https://zoom.us/)  
+Скачать: [zoom.us/download](https://zoom.us/download#client_4meeting)
 
 <a name="utilities"></a>
 ## Утилиты

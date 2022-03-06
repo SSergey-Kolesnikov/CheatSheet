@@ -173,7 +173,7 @@
 
 > Свободно распространяемый клиент для различных протоколов удалённого доступа, включая SSH, Telnet, rlogin.
 
-Сайт: [putty.org](https://www.putty.org/)
+Сайт: [putty.org](https://www.putty.org/)  
 Скачать: [chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)  
 Лицензия: MIT.
 
@@ -183,7 +183,7 @@
 
 > Проприетарный текстовый редактор.
 
-Сайт: [sublimetext.com](https://www.sublimetext.com/)
+Сайт: [sublimetext.com](https://www.sublimetext.com/)  
 Скачать: [sublimetext.com/download](https://www.sublimetext.com/download)  
 Лицензия: проприетарная (разработчик позволяет бесплатно и без ограничений ознакомиться с продуктом, однако программа уведомляет о необходимости приобретения лицензии)
 

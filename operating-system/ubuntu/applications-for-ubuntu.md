@@ -174,7 +174,7 @@ user@computer:~$ sudo snap install phpstorm --classic
 
 > Проприетарный текстовый редактор.
 
-Сайт: [sublimetext.com](https://www.sublimetext.com/)
+Сайт: [sublimetext.com](https://www.sublimetext.com/)  
 Скачать: [sublimetext.com/download](https://www.sublimetext.com/download)  
 Лицензия: проприетарная (разработчик позволяет бесплатно и без ограничений ознакомиться с продуктом, однако программа уведомляет о необходимости приобретения лицензии)
 

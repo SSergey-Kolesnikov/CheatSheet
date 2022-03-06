@@ -27,6 +27,7 @@
   - [Postman](#postman)
   - [PuTTY](#putty)
   - [Sublime Text](#sublime-text)
+  - [TablePlus](#tableplus)
 
 <a name="browsers"></a>
 ## Браузеры
@@ -103,8 +104,7 @@
 
 Сайт: [dbeaver.io](https://dbeaver.io/)   
 Скачать: [dbeaver.io/download/](https://dbeaver.io/download/)  
-Лицензия: Apache License  
-Примечание: [Navicat Premium](#navicat-premium) - более удобный и мощный инструмент
+Лицензия: Apache License
 
 <a name="filezilla"></a>
 ### FileZilla
@@ -186,3 +186,12 @@
 Сайт: [sublimetext.com](https://www.sublimetext.com/)
 Скачать: [sublimetext.com/download](https://www.sublimetext.com/download)  
 Лицензия: проприетарная (разработчик позволяет бесплатно и без ограничений ознакомиться с продуктом, однако программа уведомляет о необходимости приобретения лицензии)
+
+<a name="tableplus"></a>
+### TablePlus
+
+> Современный инструмент с элегантным пользовательским интерфейсом, который позволяет одновременно управлять несколькими базами данных, такими как MySQL, PostgreSQL, SQLite, Microsoft SQL Server и другими.
+
+Сайт: [tableplus.com](https://tableplus.com/)  
+Скачать: [tableplus.com/download](https://tableplus.com/download)  
+Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)

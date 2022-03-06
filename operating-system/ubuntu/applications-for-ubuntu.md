@@ -20,6 +20,7 @@
   - [Git](#git)
   - [PhpStorm](#phpstorm)
   - [Sublime Text](#sublime-text)
+  - [TablePlus](#tableplus)
 - [Источники](#sources)
 
 <a name="browsers"></a>
@@ -176,6 +177,33 @@ user@computer:~$ sudo snap install phpstorm --classic
 Сайт: [sublimetext.com](https://www.sublimetext.com/)
 Скачать: [sublimetext.com/download](https://www.sublimetext.com/download)  
 Лицензия: проприетарная (разработчик позволяет бесплатно и без ограничений ознакомиться с продуктом, однако программа уведомляет о необходимости приобретения лицензии)
+
+<a name="tableplus"></a>
+### TablePlus
+
+> Современный инструмент с элегантным пользовательским интерфейсом, который позволяет одновременно управлять несколькими базами данных, такими как MySQL, PostgreSQL, SQLite, Microsoft SQL Server и другими.
+
+Сайт: [tableplus.com](https://tableplus.com/)  
+Скачать: [tableplus.com/blog/2019/10/tableplus-linux-installation.html](https://tableplus.com/blog/2019/10/tableplus-linux-installation.html)  
+Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)
+
+#### Установка
+
+```markdown
+user@computer:~$ wget -qO - http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add -
+```
+
+```markdown
+user@computer:~$ sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian/20 tableplus main"
+```
+
+```markdown
+user@computer:~$ sudo apt update
+```
+
+```markdown
+user@computer:~$ sudo apt install tableplus
+```
 
 <a name="sources"></a>
 ## Источники

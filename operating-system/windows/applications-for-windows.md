@@ -15,6 +15,7 @@
   - [Zoom](#zoom)
 - [Утилиты](#utilities)
   - [Ditto](#ditto)
+  - [Joxi](#joxi)
 - [Web](#web)
   - [Composer](#composer)
   - [DBeaver](#dbeaver)
@@ -84,6 +85,14 @@
 
 Сайт: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)  
 Скачать: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)
+
+<a name="joxi"></a>
+### Joxi
+
+> Удобный современный сервис, который позволяет в два счета обмениваться файлами и скриншотами через Интернет.
+
+Сайт: [joxi.ru](https://joxi.ru/)  
+Скачать: [joxi.ru/download/](https://joxi.ru/download/)
 
 <a name="web"></a>
 ## Web

@@ -14,6 +14,7 @@
 - [Утилиты](#utilities)
   - [CopyQ](#copyq)
   - [Gnome Tweak Tool](#gnome-tweak-tool)
+  - [Joxi](#joxi)
 - [Web](#web)
   - [Composer](#composer)
   - [DBeaver](#dbeaver)
@@ -87,6 +88,17 @@ user@computer:~$ sudo apt install copyq
 ```markdown
 user@computer:~$ sudo apt install gnome-tweak-tool
 ```
+
+<a name="joxi"></a>
+### Joxi
+
+> Удобный современный сервис, который позволяет в два счета обмениваться файлами и скриншотами через Интернет.
+
+Сайт: [joxi.ru](https://joxi.ru/)  
+Скачать: [joxi.ru/download/](https://joxi.ru/download/)
+
+<a name="web"></a>
+## Web
 
 <a name="composer"></a>
 ### Composer

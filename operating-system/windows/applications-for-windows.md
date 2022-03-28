@@ -18,6 +18,7 @@
   - [Joxi](#joxi)
 - [Web](#web)
   - [Composer](#composer)
+  - [DataGrip](#datagrip)
   - [DBeaver](#dbeaver)
   - [FileZilla](#filezilla)
   - [Git](#git)
@@ -105,6 +106,15 @@
 Сайт: [getcomposer.org](https://getcomposer.org/)   
 Скачать: [getcomposer.org/download/](https://getcomposer.org/download/)  
 Лицензия: MIT
+
+<a name="datagrip"></a>
+### DataGrip
+
+> Кросс-платформенная среда разработки для баз данных и SQL.
+
+Сайт: [jetbrains.com/datagrip/](https://www.jetbrains.com/datagrip/)   
+Скачать: [jetbrains.com/datagrip/download/](https://www.jetbrains.com/datagrip/download/#section=windows)  
+Лицензия: проприетарная (платная с 30 дневной пробной версией)
 
 <a name="dbeaver"></a>
 ### DBeaver

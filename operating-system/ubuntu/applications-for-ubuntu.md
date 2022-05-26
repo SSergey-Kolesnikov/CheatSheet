@@ -32,13 +32,15 @@
 ### Google Chrome
 
 Сайт: [google.ru/chrome/](https://www.google.ru/chrome/)   
-Скачать: [google.ru/chrome/](https://www.google.ru/chrome/)
+Скачать: [google.ru/chrome/](https://www.google.ru/chrome/)  
+Аналоги: [Mozilla Firefox](#mozilla-firefox)
 
 <a name="mozilla-firefox"></a>
 ### Mozilla Firefox
 
 Сайт: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)   
-Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)
+Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)  
+Аналоги: [Google Chrome](#google-chrome)
 
 <a name="communications"></a>
 ## Связь
@@ -120,7 +122,8 @@ user@computer:~$ sudo apt install gnome-tweak-tool
 
 Сайт: [dbeaver.io](https://dbeaver.io/)   
 Скачать: [dbeaver.io/download/](https://dbeaver.io/download/)  
-Лицензия: Apache License
+Лицензия: Apache License  
+Аналоги: [TablePlus](#tableplus)
 
 #### Установка
 
@@ -206,7 +209,8 @@ user@computer:~$ sudo snap install phpstorm --classic
 
 Сайт: [tableplus.com](https://tableplus.com/)  
 Скачать: [tableplus.com/blog/2019/10/tableplus-linux-installation.html](https://tableplus.com/blog/2019/10/tableplus-linux-installation.html)  
-Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)
+Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)  
+Аналоги: [DBeaver](#dbeaver)
 
 #### Установка
 

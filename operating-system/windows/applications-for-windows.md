@@ -38,13 +38,15 @@
 ### Google Chrome
 
 Сайт: [google.ru/chrome/](https://www.google.ru/chrome/)   
-Скачать: [google.ru/chrome/](https://www.google.ru/chrome/)
+Скачать: [google.ru/chrome/](https://www.google.ru/chrome/)  
+Аналоги: [Mozilla Firefox](#mozilla-firefox)
 
 <a name="mozilla-firefox"></a>
 ### Mozilla Firefox
 
 Сайт: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)   
-Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)
+Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)  
+Аналоги: [Google Chrome](#google-chrome)
 
 <a name="music"></a>
 ## Музыка
@@ -114,7 +116,8 @@
 
 Сайт: [jetbrains.com/datagrip/](https://www.jetbrains.com/datagrip/)   
 Скачать: [jetbrains.com/datagrip/download/](https://www.jetbrains.com/datagrip/download/#section=windows)  
-Лицензия: проприетарная (платная с 30 дневной пробной версией)
+Лицензия: проприетарная (платная с 30 дневной пробной версией)  
+Аналоги: [DBeaver](#dbeaver), [Navicat Premium](#navicat-premium), [TablePlus](#tableplus)
 
 <a name="dbeaver"></a>
 ### DBeaver
@@ -123,7 +126,8 @@
 
 Сайт: [dbeaver.io](https://dbeaver.io/)   
 Скачать: [dbeaver.io/download/](https://dbeaver.io/download/)  
-Лицензия: Apache License
+Лицензия: Apache License  
+Аналоги: [DataGrip](#datagrip), [Navicat Premium](#navicat-premium), [TablePlus](#tableplus)
 
 <a name="filezilla"></a>
 ### FileZilla
@@ -149,7 +153,8 @@
 >  Клиент API и инструмент проектирования.
 
 Сайт: [insomnia.rest/products/insomnia](https://insomnia.rest/products/insomnia)   
-Скачать: [insomnia.rest/download](https://insomnia.rest/download)
+Скачать: [insomnia.rest/download](https://insomnia.rest/download)  
+Аналоги: [Postman](#postman)
 
 <a name="navicat-premium"></a>
 ### Navicat Premium
@@ -158,7 +163,8 @@
 
 Сайт: [navicat.com/ru/products/navicat-premium](https://www.navicat.com/ru/products/navicat-premium)   
 Скачать: [navicat.com/ru/download/navicat-premium](https://www.navicat.com/ru/download/navicat-premium)  
-Лицензия: проприетарная (платная с 14 дневной пробной версией)
+Лицензия: проприетарная (платная с 14 дневной пробной версией)  
+Аналоги: [DataGrip](#datagrip), [DBeaver](#dbeaver), [TablePlus](#tableplus)
 
 <a name="open-server-panel"></a>
 ### Open Server Panel
@@ -185,7 +191,8 @@
 > Клиент API.
 
 Сайт: [postman.com](https://www.postman.com/)   
-Скачать: [postman.com/downloads/](https://www.postman.com/downloads/)
+Скачать: [postman.com/downloads/](https://www.postman.com/downloads/)  
+Аналоги: [Insomnia](#insomnia)
 
 <a name="putty"></a>
 ### PuTTY
@@ -213,4 +220,5 @@
 
 Сайт: [tableplus.com](https://tableplus.com/)  
 Скачать: [tableplus.com/download](https://tableplus.com/download)  
-Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)
+Лицензия: проприетарная (бесплатная пробная версия ограничена 2 открытыми вкладками, 2 открытыми окнами, 2 расширенными фильтрами одновременно)  
+Аналоги: [DataGrip](#datagrip), [DBeaver](#dbeaver), [Navicat Premium](#navicat-premium)

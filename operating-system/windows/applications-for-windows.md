@@ -20,6 +20,7 @@
   - [Composer](#composer)
   - [DataGrip](#datagrip)
   - [DBeaver](#dbeaver)
+  - [Docker Desktop](#docker-desktop)
   - [FileZilla](#filezilla)
   - [Git](#git)
   - [Insomnia](#insomnia)
@@ -128,6 +129,14 @@
 Скачать: [dbeaver.io/download/](https://dbeaver.io/download/)  
 Лицензия: Apache License  
 Аналоги: [DataGrip](#datagrip), [Navicat Premium](#navicat-premium), [TablePlus](#tableplus)
+
+<a name="docker-desktop"></a>
+### Docker Desktop
+
+> Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в средах с поддержкой контейнеризации, контейнеризатор приложений. Позволяет «упаковать» приложение со всем его окружением и зависимостями в контейнер, который может быть развёрнут на любой Linux-системе с поддержкой контрольных групп в ядре, а также предоставляет набор команд для управления этими контейнерами.
+
+Сайт: [docker.com](https://www.docker.com/)   
+Скачать: [docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)  
 
 <a name="filezilla"></a>
 ### FileZilla

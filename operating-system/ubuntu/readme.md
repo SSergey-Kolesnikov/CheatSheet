@@ -22,4 +22,5 @@
 - [Установка Node.js и npm через архив PPA NodeSource на Ubuntu 16](installing-node-js-and-npm-via-nodesource-ppa-archive-on-ubuntu-16.md)
 - [Установка Samba на Ubuntu Server 20](installing-samba-on-ubuntu-server-20.md)
 - [Установка Webmin на Ubuntu Server 20](installing-webmin-on-ubuntu-server-20.md)
+- [Установка драйвера Nvidia c Secure Boot на Ubuntu 20](installing-the-nvidia-driver-with-secure-boot-on-ubuntu-20.md)
 - [Файл `sources.list` для Ubuntu 16.04](ubuntu-16-04-sources-list-file.md)

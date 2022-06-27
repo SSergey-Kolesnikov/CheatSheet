@@ -13,5 +13,6 @@
 - [Постоянные обрывы соединения в PuTTY через SSH](constant-connection-interruptions-in-putty-over-ssh.md)
 - [Приложения для Windows](applications-for-windows.md)
 - [Сброс кэша DNS в Chrome и Windows](resetting-the-dns-cache-in-chrome-and-windows.md)
+- [Ускоряем работу проектов на базе Docker Desktop + WSL2 в Windows 10](accelerating-docker-desktop-wsl2-projects-on-windows-10.md)
 - [Установка PHP интерпретатора в Windows 7](installing-php-interpreter-in-windows-7.md)
 - [Установка принтера Xerox Phaser 3100MFP на Windows 10](installing-the-xerox-phaser-3100mfp-printer-on-windows-10.md)

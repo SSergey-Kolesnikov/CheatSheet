@@ -14,6 +14,7 @@
   - [Telegram](#telegram)
   - [Zoom](#zoom)
 - [Утилиты](#utilities)
+  - [7-Zip](#7-zip)
   - [Ditto](#ditto)
   - [Joxi](#joxi)
 - [Web](#web)
@@ -83,6 +84,14 @@
 
 <a name="utilities"></a>
 ## Утилиты
+
+<a name="7-zip"></a>
+### 7-Zip
+
+> Свободный файловый архиватор с высокой степенью сжатия данных. Поддерживает несколько алгоритмов сжатия и множество форматов данных, включая собственный формат 7z c высокоэффективным алгоритмом сжатия LZMA.
+
+Сайт: [7-zip.org](https://www.7-zip.org/)  
+Скачать: [7-zip.org/download.html](https://www.7-zip.org/download.html)
 
 <a name="ditto"></a>
 ### Ditto

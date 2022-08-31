@@ -15,6 +15,7 @@
   - [Zoom](#zoom)
 - [Утилиты](#utilities)
   - [7-Zip](#7-zip)
+  - [Avast Antivirus](#avast-antivirus)
   - [Ditto](#ditto)
   - [Joxi](#joxi)
 - [Web](#web)
@@ -92,6 +93,14 @@
 
 Сайт: [7-zip.org](https://www.7-zip.org/)  
 Скачать: [7-zip.org/download.html](https://www.7-zip.org/download.html)
+
+<a name="avast-antivirus"></a>
+### Avast Antivirus
+
+> Семейство антивирусных программ, разработанных компанией Avast для операционных систем Windows, Mac OS, Android и iOS. Включает в себя бесплатную и коммерческие версии продуктов, нацеленных на компьютерную безопасность и защиту от вредоносных, шпионских и троянских программ, а также остальных типов киберугроз, включая adware, червей и фишинг.
+
+Сайт: [avast.ru](https://www.avast.ru/)  
+Скачать: [avast.ru/free-antivirus-download](https://www.avast.ru/free-antivirus-download)
 
 <a name="ditto"></a>
 ### Ditto

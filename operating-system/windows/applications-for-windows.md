@@ -17,6 +17,7 @@
   - [7-Zip](#7-zip)
   - [Avast Antivirus](#avast-antivirus)
   - [Ditto](#ditto)
+  - [FastStone Image Viewer](#faststone-image-viewer)
   - [Joxi](#joxi)
 - [Web](#web)
   - [Composer](#composer)
@@ -107,6 +108,14 @@
 
 Сайт: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)  
 Скачать: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)
+
+<a name="faststone-image-viewer"></a>
+### FastStone Image Viewer
+
+> Программа для просмотра изображений в Microsoft Windows. Включает в себя файловый менеджер, базу данных и основные функции редактирования изображений.
+
+Сайт: [faststone.org](https://www.faststone.org/)  
+Скачать: [faststone.org/download.htm](https://www.faststone.org/download.htm)
 
 <a name="joxi"></a>
 ### Joxi

@@ -9,6 +9,8 @@
   - [Mozilla Firefox](#mozilla-firefox)
 - [Музыка](#music)
   - [Яндекс.Музыка](#yandex-music)
+- [Офис](#office)
+  - [LibreOffice](#libreoffice)
 - [Связь](#communications)
   - [Skype](#skype)
   - [Telegram](#telegram)
@@ -60,6 +62,17 @@
 
 Сайт: [music.yandex.ru](https://music.yandex.ru/)  
 Скачать: [music.yandex.ru/apps](https://music.yandex.ru/apps), [microsoft.com](https://www.microsoft.com/ru-ru/p/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/9nblggh0cb6d)
+
+<a name="office"></a>
+## Офис
+
+<a name="libreoffice"></a>
+### LibreOffice
+
+> Офисный пакет содержит в себе текстовый и табличный процессор, программу для подготовки и просмотра презентаций, векторный графический редактор, систему управления базами данных и редактор формул. Основным форматом файлов, использующимся в приложении, является открытый международный формат OpenDocument (ODF, ISO/IEC 26300), но возможна работа и с другими популярными форматами, в том числе Office Open XML, DOC, XLS, PPT, CDR.
+
+Сайт: [libreoffice.org](https://www.libreoffice.org/)  
+Скачать: [libreoffice.org/download/download-libreoffice/?type=win-x86_64&lang=ru](https://www.libreoffice.org/download/download-libreoffice/?type=win-x86_64&lang=ru)
 
 <a name="communications"></a>
 ## Связь

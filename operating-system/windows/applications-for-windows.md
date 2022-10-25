@@ -9,6 +9,9 @@
   - [Mozilla Firefox](#mozilla-firefox)
 - [Музыка](#music)
   - [Яндекс.Музыка](#yandex-music)
+- [Облачные хранилища](#cloud-storage)
+  - [Диск-О](#disk-o)
+  - [Яндекс.Диск](#yandex-disk)
 - [Офис](#office)
   - [LibreOffice](#libreoffice)
 - [Связь](#communications)
@@ -63,6 +66,27 @@
 
 Сайт: [music.yandex.ru](https://music.yandex.ru/)  
 Скачать: [music.yandex.ru/apps](https://music.yandex.ru/apps), [microsoft.com](https://www.microsoft.com/ru-ru/p/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/9nblggh0cb6d)
+
+<a name="cloud-storage"></a>
+## Облачные хранилища
+
+<a name="disk-o"></a>
+### Диск-О
+
+> Программа, которая умеет объединять разные облака в одном пространстве и быстро переносить все файлы с любого диска в Облако Mail.ru.
+
+Сайт: [disk-o.cloud](https://disk-o.cloud/)  
+Скачать: [disk-o.cloud](https://disk-o.cloud/)  
+Аналоги: [Яндекс.Диск](#yandex-disk)
+
+<a name="yandex-disk"></a>
+### Яндекс.Диск
+
+> Облачный сервис, принадлежащий компании Яндекс, позволяющий пользователям хранить свои данные на серверах в «облаке» и передавать их другим пользователям в Интернете. Основное назначение сервиса — синхронизация файлов между различными устройствами.
+
+Сайт: [disk.yandex.ru](https://disk.yandex.ru/)  
+Скачать: [disk.yandex.ru/promo/download](https://disk.yandex.ru/promo/download)  
+Аналоги: [Диск-О](#disk-o)
 
 <a name="office"></a>
 ## Офис

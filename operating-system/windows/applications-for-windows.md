@@ -21,6 +21,7 @@
   - [Ditto](#ditto)
   - [FastStone Image Viewer](#faststone-image-viewer)
   - [Joxi](#joxi)
+  - [SafeInCloud](#safeincloud)
 - [Web](#web)
   - [Composer](#composer)
   - [DataGrip](#datagrip)
@@ -137,6 +138,14 @@
 
 Сайт: [joxi.ru](https://joxi.ru/)  
 Скачать: [joxi.ru/download/](https://joxi.ru/download/)
+
+<a name="safeincloud"></a>
+### SafeInCloud
+
+> Менеджер паролей для безопасного хранения паролей и других учетных данных в автономном режиме и в облаке.
+
+Сайт: [safe-in-cloud.com](http://www.safe-in-cloud.com/)  
+Скачать: [microsoft.com/store/apps/9NLXL1B6J7LW/](https://www.microsoft.com/store/apps/9NLXL1B6J7LW/)
 
 <a name="web"></a>
 ## Web

@@ -7,7 +7,9 @@
 - [Браузеры](#browsers)
   - [Google Chrome](#google-chrome)
   - [Mozilla Firefox](#mozilla-firefox)
-- [Музыка](#music)
+- [Мультимедиа](#multimedia)
+  - [FastStone Image Viewer](#faststone-image-viewer)
+  - [Light Alloy](#light-alloy)
   - [Яндекс.Музыка](#yandex-music)
 - [Облачные хранилища](#cloud-storage)
   - [Диск-О](#disk-o)
@@ -22,7 +24,6 @@
   - [7-Zip](#7-zip)
   - [Avast Antivirus](#avast-antivirus)
   - [Ditto](#ditto)
-  - [FastStone Image Viewer](#faststone-image-viewer)
   - [Joxi](#joxi)
   - [SafeInCloud](#safeincloud)
 - [Web](#web)
@@ -58,8 +59,24 @@
 Скачать: [mozilla.org/ru/firefox/](https://www.mozilla.org/ru/firefox/)  
 Аналоги: [Google Chrome](#google-chrome)
 
-<a name="music"></a>
-## Музыка
+<a name="multimedia"></a>
+## Мультимедиа
+
+<a name="faststone-image-viewer"></a>
+### FastStone Image Viewer
+
+> Программа для просмотра изображений в Microsoft Windows. Включает в себя файловый менеджер, базу данных и основные функции редактирования изображений.
+
+Сайт: [faststone.org](https://www.faststone.org/)  
+Скачать: [faststone.org/download.htm](https://www.faststone.org/download.htm)
+
+<a name="light-alloy"></a>
+### Light Alloy
+
+> Популярный бесплатный мультимедиаплеер для Microsoft Windows. Проигрыватель поддерживает все распространённые мультимедийные форматы. Основная особенность — простота использования и в то же время многообразие настроек. Проигрыватель оптимизирован для быстрого запуска и минимальной загрузки системы, а также предоставляет возможности для настройки «под себя». Быстро перематывает видео, умеет загружать субтитры, может сворачиваться в трей, может управляться с пульта дистанционного управления (WinLIRC), умеет регулировать яркость, контраст и насыщенность изображения, делает снимки с экрана, поддерживает мультимедийные клавиатуры, позволяет делать закладки в списке и устанавливать метки на временной линейке, позволяет выбирать звуковые дорожки и субтитры в многоязычных фильмах, одновременно выводить на экран две пары субтитров, имеет полную поддержку DVD. Проигрыватель отличается также наличием встроенных кодеков для всех основных медиа-форматов.
+
+Сайт: [light-alloy.com](https://light-alloy.com/)  
+Скачать: [light-alloy.com/download/](https://light-alloy.com/download/)
 
 <a name="yandex-music"></a>
 ### Яндекс.Музыка
@@ -146,14 +163,6 @@
 
 Сайт: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)  
 Скачать: [ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io/)
-
-<a name="faststone-image-viewer"></a>
-### FastStone Image Viewer
-
-> Программа для просмотра изображений в Microsoft Windows. Включает в себя файловый менеджер, базу данных и основные функции редактирования изображений.
-
-Сайт: [faststone.org](https://www.faststone.org/)  
-Скачать: [faststone.org/download.htm](https://www.faststone.org/download.htm)
 
 <a name="joxi"></a>
 ### Joxi

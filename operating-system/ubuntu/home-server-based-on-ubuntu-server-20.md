@@ -14,6 +14,7 @@
     - [Установка вспомогательных программ](#installing-auxiliary-programs)
         - [Установка Midnight CommanderУстановка Midnight Commander](#installing-midnight-commander)
         - [Установка htop](#installing-htop)
+- [Установка Samba](#installing-samba)
 - [Установка Webmin](#installing-webmin)
 - [Источники](#sources)
 
@@ -241,6 +242,13 @@ user@computer:~$ sudo apt update
 ```markdown
 user@computer:~$ sudo apt install htop
 ```
+
+<a name="installing-samba"></a>
+## Установка Samba
+
+> Samba — пакет программ, которые позволяют обращаться к сетевым дискам и принтерам на различных операционных системах по протоколу SMB/CIFS. Имеет клиентскую и серверную части.
+
+Для установки Samba можно воспользоваться инструкцией "[Установка Samba на Ubuntu Server 20](installing-samba-on-ubuntu-server-20.md)".
 
 <a name="installing-webmin"></a>
 ## Установка Webmin

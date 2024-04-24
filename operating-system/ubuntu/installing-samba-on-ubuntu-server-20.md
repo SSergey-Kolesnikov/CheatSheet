@@ -151,14 +151,14 @@ usershare allow guests = yes
 [Shared]
 comment = Shared files
 path = /mnt/shared
-guest ok = yes
+writeable = yes
 browseable = yes
-writeable = no
-create mask = 0770
-directory mask = 2770
-force create mode = 0770
-force directory mode = 2770
+guest ok = No
+valid users = @group
 write list = @group
+create mask = 0660
+force create mode = 0110
+directory mask = 0770
 ```
 
 где:
@@ -183,14 +183,14 @@ write list = @group
 
 - `comment` - комментарий в свободной форме;
 - `path` - путь к папке;
-- `guest ok` - возможность доступа к каталогу без пароля (гостевой);
-- `browseable` - показывать ли каталог на сервере среди прочих;
 - `writeable` - позволяет ли пользователям выполнять действия над файлами внутри каталога — переименование, добавление, удаление, перемещение в подкаталог и копирование;
-- `create mask` - маска прав для создаваемых файлов;
-- `directory mask` - маска прав для создаваемых папок;
-- `force create mode` - маска прав, которые будут всегда устанавливаться на файле;
-- `force directory mode` - маска прав, которые будут всегда устанавливаться на папках;
+- `browseable` - показывать ли каталог на сервере среди прочих;
+- `guest ok` - возможность доступа к каталогу без пароля (гостевой);
+  - `valid users` - список пользователей или групп пользователей, которым разрешен доступ к сервису;
 - `write list` - список пользователей или групп пользователей, имеющих доступ на чтение/запись;
+- `create mask` - маска прав для создаваемых файлов;
+- `force create mode` - маска прав, которые будут всегда устанавливаться на файле;
+- `directory mask` - маска прав для создаваемых папок;
 
 Проверяем утилитой testparm (входит в пакет Samba) правильность настроек:
 
